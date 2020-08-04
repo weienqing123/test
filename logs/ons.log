@@ -1,0 +1,1124 @@
+2020-01-15 16:20:57 INFO localhost-startStop-1 - name server address updated. NEW : [106.15.100.140:80, 112.124.141.191:80] , OLD: null
+2020-01-15 16:20:57 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-15 16:20:57 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 0 ClinetID: 192.168.111.202@13280#369055674#-1966528391#177908960299671 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=13280#369055674#-1966528391#177908960299671, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-15 16:20:57 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@13280#369055674#-1966528391#177908960299671]
+2020-01-15 16:20:57 INFO PullMessageService - PullMessageService service started
+2020-01-15 16:20:57 INFO RebalanceService - RebalanceService service started
+2020-01-15 16:20:57 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 16:20:57 INFO localhost-startStop-1 - the client factory [192.168.111.202@13280#369055674#-1966528391#177908960299671] start OK
+2020-01-15 16:20:57 INFO localhost-startStop-1 - the producer [LTAIhb2UX7UkzaB2_INNER_TRACE_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 16:20:57 INFO localhost-startStop-1 - register consumeMessageHook Hook, OnsConsumeMessageHook
+2020-01-15 16:20:57 INFO localhost-startStop-1 - the consumer [CID_jpush_message] start beginning. messageModel=CLUSTERING, isUnitMode=false
+2020-01-15 16:20:57 INFO MQClientFactoryScheduledThread - new name server is chosen. OLD: null , NEW: 106.15.100.140:80. namesrvIndex = 102
+2020-01-15 16:20:57 INFO localhost-startStop-1 - name server address updated. NEW : [106.15.100.140:80, 112.124.141.191:80] , OLD: null
+2020-01-15 16:20:57 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-15 16:20:57 INFO MQClientFactoryScheduledThread - createChannel: begin to connect remote host[106.15.100.140:80] asynchronously
+2020-01-15 16:20:57 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 106.15.100.140:80
+2020-01-15 16:20:57 INFO MQClientFactoryScheduledThread - createChannel: connect remote host[106.15.100.140:80] success, DefaultChannelPromise@11bd210b(success)
+2020-01-15 16:20:57 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 1 ClinetID: 192.168.111.202@13280#369055674#-1966528391#177908960130323 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=13280#369055674#-1966528391#177908960130323, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-15 16:20:57 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@13280#369055674#-1966528391#177908960130323]
+2020-01-15 16:20:57 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 16:20:57 INFO PullMessageService - PullMessageService service started
+2020-01-15 16:20:57 INFO RebalanceService - RebalanceService service started
+2020-01-15 16:20:57 INFO localhost-startStop-1 - the client factory [192.168.111.202@13280#369055674#-1966528391#177908960130323] start OK
+2020-01-15 16:20:57 INFO localhost-startStop-1 - the consumer [CID_jpush_message] start OK.
+2020-01-15 16:20:57 INFO localhost-startStop-1 - new name server is chosen. OLD: null , NEW: 112.124.141.191:80. namesrvIndex = 89
+2020-01-15 16:20:57 INFO localhost-startStop-1 - createChannel: begin to connect remote host[112.124.141.191:80] asynchronously
+2020-01-15 16:20:57 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 112.124.141.191:80
+2020-01-15 16:20:57 INFO localhost-startStop-1 - createChannel: connect remote host[112.124.141.191:80] success, DefaultChannelPromise@6edd5d1d(success)
+2020-01-15 16:20:58 INFO localhost-startStop-1 - the topic[jpush_message_topic] route info changed, old[null] ,new[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-01, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-02, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-15 16:20:58 INFO localhost-startStop-1 - topicRouteTable.put. Topic = jpush_message_topic, TopicRouteData[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-01, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-02, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-15 16:20:58 INFO localhost-startStop-1 - the topic[%RETRY%CID_jpush_message] route info changed, old[null] ,new[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-01, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-02, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-15 16:20:58 INFO localhost-startStop-1 - topicRouteTable.put. Topic = %RETRY%CID_jpush_message, TopicRouteData[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-01, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-02, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-15 16:20:58 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.25:80] asynchronously
+2020-01-15 16:20:58 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.25:80
+2020-01-15 16:20:58 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.25:80] success, DefaultChannelPromise@41ea2910(success)
+2020-01-15 16:20:58 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-01 0 118.190.213.25:80] failed
+2020-01-15 16:20:58 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.23:80] asynchronously
+2020-01-15 16:20:58 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.23:80
+2020-01-15 16:20:58 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.23:80] success, DefaultChannelPromise@60b214f5(success)
+2020-01-15 16:20:58 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-01 1 118.190.213.23:80] failed
+2020-01-15 16:20:58 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.26:80] asynchronously
+2020-01-15 16:20:58 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.26:80
+2020-01-15 16:20:58 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.26:80] success, DefaultChannelPromise@8399898(success)
+2020-01-15 16:20:58 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-02 0 118.190.213.26:80] failed
+2020-01-15 16:20:58 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.24:80] asynchronously
+2020-01-15 16:20:58 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.24:80
+2020-01-15 16:20:58 WARN MQClientFactoryScheduledThread - lock heartBeat, but failed.
+2020-01-15 16:20:58 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.24:80] success, DefaultChannelPromise@58c8f8d2(success)
+2020-01-15 16:20:59 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-02 1 118.190.213.24:80] failed
+2020-01-15 16:20:59 WARN RebalanceService - getConsumerIdListByGroup exception, 118.190.213.26:80 CID_jpush_message
+com.aliyun.openservices.shade.com.alibaba.rocketmq.client.exception.MQBrokerException: CODE: 1  DESC: com.aliyun.openservices.ons.api.impl.authority.exception.AuthenticationException: get user info by accesskey from ALIYUN failed., com.alibaba.ons.open.auth.validator.DynamicBlackAccessValidator.check(DynamicBlackAccessValidator.java:65)
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.MQClientAPIImpl.getConsumerIdListByGroup(MQClientAPIImpl.java:745) ~[ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.findConsumerIdList(MQClientInstance.java:1060) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.rebalanceByTopic(RebalanceImpl.java:262) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.doRebalance(RebalanceImpl.java:225) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.DefaultMQPushConsumerImpl.doRebalance(DefaultMQPushConsumerImpl.java:990) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.doRebalance(MQClientInstance.java:955) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceService.run(RebalanceService.java:41) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at java.lang.Thread.run(Thread.java:744) [na:1.7.0_45]
+2020-01-15 16:20:59 WARN RebalanceService - doRebalance, CID_jpush_message jpush_message_topic, get consumer id list failed
+2020-01-15 16:20:59 WARN RebalanceService - getConsumerIdListByGroup exception, 118.190.213.26:80 CID_jpush_message
+com.aliyun.openservices.shade.com.alibaba.rocketmq.client.exception.MQBrokerException: CODE: 1  DESC: com.aliyun.openservices.ons.api.impl.authority.exception.AuthenticationException: get user info by accesskey from ALIYUN failed., com.alibaba.ons.open.auth.validator.DynamicBlackAccessValidator.check(DynamicBlackAccessValidator.java:65)
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.MQClientAPIImpl.getConsumerIdListByGroup(MQClientAPIImpl.java:745) ~[ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.findConsumerIdList(MQClientInstance.java:1060) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.rebalanceByTopic(RebalanceImpl.java:262) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.doRebalance(RebalanceImpl.java:225) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.DefaultMQPushConsumerImpl.doRebalance(DefaultMQPushConsumerImpl.java:990) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.doRebalance(MQClientInstance.java:955) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceService.run(RebalanceService.java:41) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at java.lang.Thread.run(Thread.java:744) [na:1.7.0_45]
+2020-01-15 16:20:59 WARN RebalanceService - doRebalance, CID_jpush_message %RETRY%CID_jpush_message, get consumer id list failed
+2020-01-15 16:20:59 INFO localhost-startStop-1 - name server address updated. NEW : [106.15.100.140:80, 112.124.141.191:80] , OLD: null
+2020-01-15 16:20:59 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-15 16:20:59 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 2 ClinetID: 192.168.111.202@13280#369055674#-1966528391#177910667247599 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=13280#369055674#-1966528391#177910667247599, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-15 16:20:59 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@13280#369055674#-1966528391#177910667247599]
+2020-01-15 16:20:59 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 16:20:59 INFO RebalanceService - RebalanceService service started
+2020-01-15 16:20:59 INFO PullMessageService - PullMessageService service started
+2020-01-15 16:20:59 INFO localhost-startStop-1 - the client factory [192.168.111.202@13280#369055674#-1966528391#177910667247599] start OK
+2020-01-15 16:20:59 INFO localhost-startStop-1 - the producer [LTAIhb2UX7UkzaB2_INNER_TRACE_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 16:20:59 INFO localhost-startStop-1 - register sendMessage Hook, OnsClientSendMessageHook
+2020-01-15 16:20:59 INFO MQClientFactoryScheduledThread - new name server is chosen. OLD: null , NEW: 112.124.141.191:80. namesrvIndex = 113
+2020-01-15 16:20:59 INFO MQClientFactoryScheduledThread - createChannel: begin to connect remote host[112.124.141.191:80] asynchronously
+2020-01-15 16:20:59 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 112.124.141.191:80
+2020-01-15 16:20:59 INFO MQClientFactoryScheduledThread - createChannel: connect remote host[112.124.141.191:80] success, DefaultChannelPromise@1b2ef13e(success)
+2020-01-15 16:20:59 INFO localhost-startStop-1 - name server address updated. NEW : [106.15.100.140:80, 112.124.141.191:80] , OLD: null
+2020-01-15 16:20:59 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-15 16:20:59 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 3 ClinetID: 192.168.111.202@13280#369055674#-1966528391#177910667134986 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=13280#369055674#-1966528391#177910667134986, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-15 16:20:59 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@13280#369055674#-1966528391#177910667134986]
+2020-01-15 16:20:59 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 16:20:59 INFO PullMessageService - PullMessageService service started
+2020-01-15 16:20:59 INFO localhost-startStop-1 - the client factory [192.168.111.202@13280#369055674#-1966528391#177910667134986] start OK
+2020-01-15 16:20:59 INFO RebalanceService - RebalanceService service started
+2020-01-15 16:20:59 INFO localhost-startStop-1 - the producer [PID_jpush_message] start OK. sendMessageWithVIPChannel=false
+2020-01-15 16:20:59 INFO MQClientFactoryScheduledThread - new name server is chosen. OLD: null , NEW: 112.124.141.191:80. namesrvIndex = 181
+2020-01-15 16:20:59 INFO MQClientFactoryScheduledThread - createChannel: begin to connect remote host[112.124.141.191:80] asynchronously
+2020-01-15 16:20:59 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 112.124.141.191:80
+2020-01-15 16:20:59 INFO MQClientFactoryScheduledThread - createChannel: connect remote host[112.124.141.191:80] success, DefaultChannelPromise@d2cf040(success)
+2020-01-15 16:22:28 INFO localhost-startStop-1 - name server address updated. NEW : [112.124.141.191:80, 106.15.100.140:80] , OLD: null
+2020-01-15 16:22:28 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-15 16:22:28 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 0 ClinetID: 192.168.111.202@12340#369055674#-1966528391#177999446484155 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=12340#369055674#-1966528391#177999446484155, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-15 16:22:28 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@12340#369055674#-1966528391#177999446484155]
+2020-01-15 16:22:28 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 16:22:28 INFO RebalanceService - RebalanceService service started
+2020-01-15 16:22:28 INFO PullMessageService - PullMessageService service started
+2020-01-15 16:22:28 INFO localhost-startStop-1 - the client factory [192.168.111.202@12340#369055674#-1966528391#177999446484155] start OK
+2020-01-15 16:22:28 INFO localhost-startStop-1 - the producer [LTAIhb2UX7UkzaB2_INNER_TRACE_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 16:22:28 INFO localhost-startStop-1 - register consumeMessageHook Hook, OnsConsumeMessageHook
+2020-01-15 16:22:28 INFO localhost-startStop-1 - the consumer [CID_jpush_message] start beginning. messageModel=CLUSTERING, isUnitMode=false
+2020-01-15 16:22:28 INFO MQClientFactoryScheduledThread - new name server is chosen. OLD: null , NEW: 106.15.100.140:80. namesrvIndex = 331
+2020-01-15 16:22:28 INFO MQClientFactoryScheduledThread - createChannel: begin to connect remote host[106.15.100.140:80] asynchronously
+2020-01-15 16:22:28 INFO localhost-startStop-1 - name server address updated. NEW : [106.15.100.140:80, 112.124.141.191:80] , OLD: null
+2020-01-15 16:22:28 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-15 16:22:28 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 106.15.100.140:80
+2020-01-15 16:22:28 INFO MQClientFactoryScheduledThread - createChannel: connect remote host[106.15.100.140:80] success, DefaultChannelPromise@5a936e57(success)
+2020-01-15 16:22:28 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 1 ClinetID: 192.168.111.202@12340#369055674#-1966528391#177999446280881 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=12340#369055674#-1966528391#177999446280881, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-15 16:22:28 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@12340#369055674#-1966528391#177999446280881]
+2020-01-15 16:22:28 INFO PullMessageService - PullMessageService service started
+2020-01-15 16:22:28 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 16:22:28 INFO RebalanceService - RebalanceService service started
+2020-01-15 16:22:28 INFO localhost-startStop-1 - the client factory [192.168.111.202@12340#369055674#-1966528391#177999446280881] start OK
+2020-01-15 16:22:28 INFO localhost-startStop-1 - the consumer [CID_jpush_message] start OK.
+2020-01-15 16:22:28 INFO localhost-startStop-1 - new name server is chosen. OLD: null , NEW: 106.15.100.140:80. namesrvIndex = 6
+2020-01-15 16:22:28 INFO localhost-startStop-1 - createChannel: begin to connect remote host[106.15.100.140:80] asynchronously
+2020-01-15 16:22:28 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 106.15.100.140:80
+2020-01-15 16:22:28 INFO localhost-startStop-1 - createChannel: connect remote host[106.15.100.140:80] success, DefaultChannelPromise@2df19189(success)
+2020-01-15 16:22:28 INFO localhost-startStop-1 - the topic[jpush_message_topic] route info changed, old[null] ,new[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-01, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-02, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-15 16:22:28 INFO localhost-startStop-1 - topicRouteTable.put. Topic = jpush_message_topic, TopicRouteData[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-01, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-02, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-15 16:22:28 INFO localhost-startStop-1 - the topic[%RETRY%CID_jpush_message] route info changed, old[null] ,new[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-01, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-02, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-15 16:22:28 INFO localhost-startStop-1 - topicRouteTable.put. Topic = %RETRY%CID_jpush_message, TopicRouteData[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-01, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-02, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-15 16:22:28 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.25:80] asynchronously
+2020-01-15 16:22:28 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.25:80
+2020-01-15 16:22:28 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.25:80] success, DefaultChannelPromise@5becd0bd(success)
+2020-01-15 16:22:28 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-01 0 118.190.213.25:80] failed
+2020-01-15 16:22:28 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.23:80] asynchronously
+2020-01-15 16:22:28 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.23:80
+2020-01-15 16:22:28 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.23:80] success, DefaultChannelPromise@367b0282(success)
+2020-01-15 16:22:28 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-01 1 118.190.213.23:80] failed
+2020-01-15 16:22:28 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.26:80] asynchronously
+2020-01-15 16:22:28 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.26:80
+2020-01-15 16:22:28 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.26:80] success, DefaultChannelPromise@42b29b4d(success)
+2020-01-15 16:22:29 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-02 0 118.190.213.26:80] failed
+2020-01-15 16:22:29 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.24:80] asynchronously
+2020-01-15 16:22:29 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.24:80
+2020-01-15 16:22:29 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.24:80] success, DefaultChannelPromise@34a78032(success)
+2020-01-15 16:22:29 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-02 1 118.190.213.24:80] failed
+2020-01-15 16:22:29 WARN RebalanceService - getConsumerIdListByGroup exception, 118.190.213.26:80 CID_jpush_message
+com.aliyun.openservices.shade.com.alibaba.rocketmq.client.exception.MQBrokerException: CODE: 1  DESC: com.aliyun.openservices.ons.api.impl.authority.exception.AuthenticationException: get user info by accesskey from ALIYUN failed., com.alibaba.ons.open.auth.validator.DynamicBlackAccessValidator.check(DynamicBlackAccessValidator.java:65)
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.MQClientAPIImpl.getConsumerIdListByGroup(MQClientAPIImpl.java:745) ~[ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.findConsumerIdList(MQClientInstance.java:1060) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.rebalanceByTopic(RebalanceImpl.java:262) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.doRebalance(RebalanceImpl.java:225) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.DefaultMQPushConsumerImpl.doRebalance(DefaultMQPushConsumerImpl.java:990) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.doRebalance(MQClientInstance.java:955) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceService.run(RebalanceService.java:41) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at java.lang.Thread.run(Thread.java:744) [na:1.7.0_45]
+2020-01-15 16:22:29 WARN RebalanceService - doRebalance, CID_jpush_message jpush_message_topic, get consumer id list failed
+2020-01-15 16:22:29 WARN RebalanceService - getConsumerIdListByGroup exception, 118.190.213.25:80 CID_jpush_message
+com.aliyun.openservices.shade.com.alibaba.rocketmq.client.exception.MQBrokerException: CODE: 1  DESC: com.aliyun.openservices.ons.api.impl.authority.exception.AuthenticationException: get user info by accesskey from ALIYUN failed., com.alibaba.ons.open.auth.service.DauthServiceImpl.signatureValidate(DauthServiceImpl.java:258)
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.MQClientAPIImpl.getConsumerIdListByGroup(MQClientAPIImpl.java:745) ~[ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.findConsumerIdList(MQClientInstance.java:1060) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.rebalanceByTopic(RebalanceImpl.java:262) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.doRebalance(RebalanceImpl.java:225) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.DefaultMQPushConsumerImpl.doRebalance(DefaultMQPushConsumerImpl.java:990) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.doRebalance(MQClientInstance.java:955) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceService.run(RebalanceService.java:41) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at java.lang.Thread.run(Thread.java:744) [na:1.7.0_45]
+2020-01-15 16:22:29 WARN RebalanceService - doRebalance, CID_jpush_message %RETRY%CID_jpush_message, get consumer id list failed
+2020-01-15 16:22:29 INFO MQClientFactoryScheduledThread - send heart beat to broker[qd3internet-01 0 118.190.213.25:80] failed
+2020-01-15 16:22:29 INFO MQClientFactoryScheduledThread - send heart beat to broker[qd3internet-01 1 118.190.213.23:80] failed
+2020-01-15 16:22:29 INFO localhost-startStop-1 - name server address updated. NEW : [106.15.100.140:80, 112.124.141.191:80] , OLD: null
+2020-01-15 16:22:29 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-15 16:22:29 INFO MQClientFactoryScheduledThread - send heart beat to broker[qd3internet-02 0 118.190.213.26:80] failed
+2020-01-15 16:22:29 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 2 ClinetID: 192.168.111.202@12340#369055674#-1966528391#178000920381813 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=12340#369055674#-1966528391#178000920381813, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-15 16:22:29 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@12340#369055674#-1966528391#178000920381813]
+2020-01-15 16:22:29 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 16:22:29 INFO RebalanceService - RebalanceService service started
+2020-01-15 16:22:29 INFO PullMessageService - PullMessageService service started
+2020-01-15 16:22:29 INFO localhost-startStop-1 - the client factory [192.168.111.202@12340#369055674#-1966528391#178000920381813] start OK
+2020-01-15 16:22:29 INFO localhost-startStop-1 - the producer [LTAIhb2UX7UkzaB2_INNER_TRACE_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 16:22:29 INFO localhost-startStop-1 - register sendMessage Hook, OnsClientSendMessageHook
+2020-01-15 16:22:29 INFO MQClientFactoryScheduledThread - new name server is chosen. OLD: null , NEW: 112.124.141.191:80. namesrvIndex = 197
+2020-01-15 16:22:29 INFO MQClientFactoryScheduledThread - createChannel: begin to connect remote host[112.124.141.191:80] asynchronously
+2020-01-15 16:22:29 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 112.124.141.191:80
+2020-01-15 16:22:29 INFO MQClientFactoryScheduledThread - send heart beat to broker[qd3internet-02 1 118.190.213.24:80] failed
+2020-01-15 16:22:29 INFO MQClientFactoryScheduledThread - createChannel: connect remote host[112.124.141.191:80] success, DefaultChannelPromise@3d0a0eac(success)
+2020-01-15 16:22:29 INFO localhost-startStop-1 - name server address updated. NEW : [106.15.100.140:80, 112.124.141.191:80] , OLD: null
+2020-01-15 16:22:29 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-15 16:22:29 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 3 ClinetID: 192.168.111.202@12340#369055674#-1966528391#178000920276327 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=12340#369055674#-1966528391#178000920276327, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-15 16:22:29 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@12340#369055674#-1966528391#178000920276327]
+2020-01-15 16:22:29 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 16:22:29 INFO PullMessageService - PullMessageService service started
+2020-01-15 16:22:29 INFO localhost-startStop-1 - the client factory [192.168.111.202@12340#369055674#-1966528391#178000920276327] start OK
+2020-01-15 16:22:29 INFO RebalanceService - RebalanceService service started
+2020-01-15 16:22:29 INFO localhost-startStop-1 - the producer [PID_jpush_message] start OK. sendMessageWithVIPChannel=false
+2020-01-15 16:22:29 INFO MQClientFactoryScheduledThread - new name server is chosen. OLD: null , NEW: 112.124.141.191:80. namesrvIndex = 213
+2020-01-15 16:22:29 INFO MQClientFactoryScheduledThread - createChannel: begin to connect remote host[112.124.141.191:80] asynchronously
+2020-01-15 16:22:29 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 112.124.141.191:80
+2020-01-15 16:22:29 INFO MQClientFactoryScheduledThread - createChannel: connect remote host[112.124.141.191:80] success, DefaultChannelPromise@590c8340(success)
+2020-01-15 16:26:00 INFO localhost-startStop-1 - name server address updated. NEW : [106.15.100.140:80, 112.124.141.191:80] , OLD: null
+2020-01-15 16:26:00 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-15 16:26:00 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 0 ClinetID: 192.168.111.202@10640#369055674#-1966528391#178211596625648 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=10640#369055674#-1966528391#178211596625648, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-15 16:26:00 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@10640#369055674#-1966528391#178211596625648]
+2020-01-15 16:26:00 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 16:26:00 INFO RebalanceService - RebalanceService service started
+2020-01-15 16:26:00 INFO PullMessageService - PullMessageService service started
+2020-01-15 16:26:00 INFO localhost-startStop-1 - the client factory [192.168.111.202@10640#369055674#-1966528391#178211596625648] start OK
+2020-01-15 16:26:00 INFO localhost-startStop-1 - the producer [LTAIhb2UX7UkzaB2_INNER_TRACE_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 16:26:00 INFO localhost-startStop-1 - register consumeMessageHook Hook, OnsConsumeMessageHook
+2020-01-15 16:26:00 INFO localhost-startStop-1 - the consumer [CID_jpush_message] start beginning. messageModel=CLUSTERING, isUnitMode=false
+2020-01-15 16:26:00 INFO MQClientFactoryScheduledThread - new name server is chosen. OLD: null , NEW: 112.124.141.191:80. namesrvIndex = 49
+2020-01-15 16:26:00 INFO localhost-startStop-1 - name server address updated. NEW : [112.124.141.191:80, 106.15.100.140:80] , OLD: null
+2020-01-15 16:26:00 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-15 16:26:00 INFO MQClientFactoryScheduledThread - createChannel: begin to connect remote host[112.124.141.191:80] asynchronously
+2020-01-15 16:26:00 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 112.124.141.191:80
+2020-01-15 16:26:00 INFO MQClientFactoryScheduledThread - createChannel: connect remote host[112.124.141.191:80] success, DefaultChannelPromise@baf49f1(success)
+2020-01-15 16:26:00 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 1 ClinetID: 192.168.111.202@10640#369055674#-1966528391#178211596495074 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=10640#369055674#-1966528391#178211596495074, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-15 16:26:00 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@10640#369055674#-1966528391#178211596495074]
+2020-01-15 16:26:00 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 16:26:00 INFO PullMessageService - PullMessageService service started
+2020-01-15 16:26:00 INFO RebalanceService - RebalanceService service started
+2020-01-15 16:26:00 INFO localhost-startStop-1 - the client factory [192.168.111.202@10640#369055674#-1966528391#178211596495074] start OK
+2020-01-15 16:26:00 INFO localhost-startStop-1 - the consumer [CID_jpush_message] start OK.
+2020-01-15 16:26:00 INFO localhost-startStop-1 - new name server is chosen. OLD: null , NEW: 106.15.100.140:80. namesrvIndex = 661
+2020-01-15 16:26:00 INFO localhost-startStop-1 - createChannel: begin to connect remote host[106.15.100.140:80] asynchronously
+2020-01-15 16:26:00 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 106.15.100.140:80
+2020-01-15 16:26:00 INFO localhost-startStop-1 - createChannel: connect remote host[106.15.100.140:80] success, DefaultChannelPromise@105d99aa(success)
+2020-01-15 16:26:00 INFO localhost-startStop-1 - the topic[jpush_message_topic] route info changed, old[null] ,new[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-01, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-02, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-15 16:26:00 INFO localhost-startStop-1 - topicRouteTable.put. Topic = jpush_message_topic, TopicRouteData[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-01, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-02, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-15 16:26:00 INFO localhost-startStop-1 - the topic[%RETRY%CID_jpush_message] route info changed, old[null] ,new[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-01, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-02, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-15 16:26:00 INFO localhost-startStop-1 - topicRouteTable.put. Topic = %RETRY%CID_jpush_message, TopicRouteData[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-01, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-02, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-15 16:26:00 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.25:80] asynchronously
+2020-01-15 16:26:00 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.25:80
+2020-01-15 16:26:00 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.25:80] success, DefaultChannelPromise@489a6ae3(success)
+2020-01-15 16:26:00 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-01 0 118.190.213.25:80] failed
+2020-01-15 16:26:00 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.23:80] asynchronously
+2020-01-15 16:26:00 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.23:80
+2020-01-15 16:26:00 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.23:80] success, DefaultChannelPromise@76c9df08(success)
+2020-01-15 16:26:01 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-01 1 118.190.213.23:80] failed
+2020-01-15 16:26:01 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.26:80] asynchronously
+2020-01-15 16:26:01 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.26:80
+2020-01-15 16:26:01 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.26:80] success, DefaultChannelPromise@4b7e126b(success)
+2020-01-15 16:26:01 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-02 0 118.190.213.26:80] failed
+2020-01-15 16:26:01 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.24:80] asynchronously
+2020-01-15 16:26:01 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.24:80
+2020-01-15 16:26:01 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.24:80] success, DefaultChannelPromise@7d51275f(success)
+2020-01-15 16:26:01 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-02 1 118.190.213.24:80] failed
+2020-01-15 16:26:01 WARN RebalanceService - getConsumerIdListByGroup exception, 118.190.213.25:80 CID_jpush_message
+com.aliyun.openservices.shade.com.alibaba.rocketmq.client.exception.MQBrokerException: CODE: 1  DESC: com.aliyun.openservices.ons.api.impl.authority.exception.AuthenticationException: get user info by accesskey from ALIYUN failed., com.alibaba.ons.open.auth.validator.DynamicBlackAccessValidator.check(DynamicBlackAccessValidator.java:65)
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.MQClientAPIImpl.getConsumerIdListByGroup(MQClientAPIImpl.java:745) ~[ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.findConsumerIdList(MQClientInstance.java:1060) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.rebalanceByTopic(RebalanceImpl.java:262) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.doRebalance(RebalanceImpl.java:225) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.DefaultMQPushConsumerImpl.doRebalance(DefaultMQPushConsumerImpl.java:990) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.doRebalance(MQClientInstance.java:955) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceService.run(RebalanceService.java:41) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at java.lang.Thread.run(Thread.java:744) [na:1.7.0_45]
+2020-01-15 16:26:01 WARN RebalanceService - doRebalance, CID_jpush_message jpush_message_topic, get consumer id list failed
+2020-01-15 16:26:01 WARN RebalanceService - getConsumerIdListByGroup exception, 118.190.213.25:80 CID_jpush_message
+com.aliyun.openservices.shade.com.alibaba.rocketmq.client.exception.MQBrokerException: CODE: 1  DESC: com.aliyun.openservices.ons.api.impl.authority.exception.AuthenticationException: get user info by accesskey from ALIYUN failed., com.alibaba.ons.open.auth.validator.DynamicBlackAccessValidator.check(DynamicBlackAccessValidator.java:65)
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.MQClientAPIImpl.getConsumerIdListByGroup(MQClientAPIImpl.java:745) ~[ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.findConsumerIdList(MQClientInstance.java:1060) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.rebalanceByTopic(RebalanceImpl.java:262) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.doRebalance(RebalanceImpl.java:225) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.DefaultMQPushConsumerImpl.doRebalance(DefaultMQPushConsumerImpl.java:990) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.doRebalance(MQClientInstance.java:955) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceService.run(RebalanceService.java:41) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at java.lang.Thread.run(Thread.java:744) [na:1.7.0_45]
+2020-01-15 16:26:01 WARN RebalanceService - doRebalance, CID_jpush_message %RETRY%CID_jpush_message, get consumer id list failed
+2020-01-15 16:26:01 INFO localhost-startStop-1 - name server address updated. NEW : [106.15.100.140:80, 112.124.141.191:80] , OLD: null
+2020-01-15 16:26:01 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-15 16:26:01 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 2 ClinetID: 192.168.111.202@10640#369055674#-1966528391#178212768664303 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=10640#369055674#-1966528391#178212768664303, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-15 16:26:01 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@10640#369055674#-1966528391#178212768664303]
+2020-01-15 16:26:01 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 16:26:01 INFO PullMessageService - PullMessageService service started
+2020-01-15 16:26:01 INFO RebalanceService - RebalanceService service started
+2020-01-15 16:26:01 INFO localhost-startStop-1 - the client factory [192.168.111.202@10640#369055674#-1966528391#178212768664303] start OK
+2020-01-15 16:26:01 INFO localhost-startStop-1 - the producer [LTAIhb2UX7UkzaB2_INNER_TRACE_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 16:26:01 INFO localhost-startStop-1 - register sendMessage Hook, OnsClientSendMessageHook
+2020-01-15 16:26:01 INFO MQClientFactoryScheduledThread - new name server is chosen. OLD: null , NEW: 106.15.100.140:80. namesrvIndex = 514
+2020-01-15 16:26:01 INFO MQClientFactoryScheduledThread - createChannel: begin to connect remote host[106.15.100.140:80] asynchronously
+2020-01-15 16:26:01 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 106.15.100.140:80
+2020-01-15 16:26:01 INFO MQClientFactoryScheduledThread - createChannel: connect remote host[106.15.100.140:80] success, DefaultChannelPromise@16de98fa(success)
+2020-01-15 16:26:01 INFO localhost-startStop-1 - name server address updated. NEW : [106.15.100.140:80, 112.124.141.191:80] , OLD: null
+2020-01-15 16:26:01 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-15 16:26:01 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 3 ClinetID: 192.168.111.202@10640#369055674#-1966528391#178212768538575 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=10640#369055674#-1966528391#178212768538575, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-15 16:26:01 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@10640#369055674#-1966528391#178212768538575]
+2020-01-15 16:26:01 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 16:26:01 INFO PullMessageService - PullMessageService service started
+2020-01-15 16:26:01 INFO RebalanceService - RebalanceService service started
+2020-01-15 16:26:01 INFO localhost-startStop-1 - the client factory [192.168.111.202@10640#369055674#-1966528391#178212768538575] start OK
+2020-01-15 16:26:01 INFO localhost-startStop-1 - the producer [PID_jpush_message] start OK. sendMessageWithVIPChannel=false
+2020-01-15 16:26:01 INFO MQClientFactoryScheduledThread - new name server is chosen. OLD: null , NEW: 112.124.141.191:80. namesrvIndex = 717
+2020-01-15 16:26:01 INFO MQClientFactoryScheduledThread - createChannel: begin to connect remote host[112.124.141.191:80] asynchronously
+2020-01-15 16:26:01 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 112.124.141.191:80
+2020-01-15 16:26:01 INFO MQClientFactoryScheduledThread - createChannel: connect remote host[112.124.141.191:80] success, DefaultChannelPromise@503834d1(success)
+2020-01-15 16:26:01 INFO MQClientFactoryScheduledThread - send heart beat to broker[qd3internet-01 0 118.190.213.25:80] failed
+2020-01-15 16:26:01 INFO MQClientFactoryScheduledThread - send heart beat to broker[qd3internet-01 1 118.190.213.23:80] failed
+2020-01-15 16:47:23 INFO localhost-startStop-1 - name server address updated. NEW : [106.15.100.140:80, 112.124.141.191:80] , OLD: null
+2020-01-15 16:47:23 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-15 16:47:23 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 0 ClinetID: 192.168.111.202@7808#369055674#-1966528391#179495047142216 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=7808#369055674#-1966528391#179495047142216, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-15 16:47:23 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@7808#369055674#-1966528391#179495047142216]
+2020-01-15 16:47:23 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 16:47:23 INFO RebalanceService - RebalanceService service started
+2020-01-15 16:47:23 INFO PullMessageService - PullMessageService service started
+2020-01-15 16:47:23 INFO localhost-startStop-1 - the client factory [192.168.111.202@7808#369055674#-1966528391#179495047142216] start OK
+2020-01-15 16:47:23 INFO localhost-startStop-1 - the producer [LTAIhb2UX7UkzaB2_INNER_TRACE_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 16:47:23 INFO localhost-startStop-1 - register consumeMessageHook Hook, OnsConsumeMessageHook
+2020-01-15 16:47:23 INFO localhost-startStop-1 - the consumer [CID_jpush_message] start beginning. messageModel=CLUSTERING, isUnitMode=false
+2020-01-15 16:47:23 INFO MQClientFactoryScheduledThread - new name server is chosen. OLD: null , NEW: 112.124.141.191:80. namesrvIndex = 279
+2020-01-15 16:47:24 INFO localhost-startStop-1 - name server address updated. NEW : [106.15.100.140:80, 112.124.141.191:80] , OLD: null
+2020-01-15 16:47:24 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-15 16:47:24 INFO MQClientFactoryScheduledThread - createChannel: begin to connect remote host[112.124.141.191:80] asynchronously
+2020-01-15 16:47:24 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 112.124.141.191:80
+2020-01-15 16:47:24 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 1 ClinetID: 192.168.111.202@7808#369055674#-1966528391#179495047004799 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=7808#369055674#-1966528391#179495047004799, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-15 16:47:24 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@7808#369055674#-1966528391#179495047004799]
+2020-01-15 16:47:24 INFO MQClientFactoryScheduledThread - createChannel: connect remote host[112.124.141.191:80] success, DefaultChannelPromise@1d7d5d5d(success)
+2020-01-15 16:47:24 INFO PullMessageService - PullMessageService service started
+2020-01-15 16:47:24 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 16:47:24 INFO RebalanceService - RebalanceService service started
+2020-01-15 16:47:24 INFO localhost-startStop-1 - the client factory [192.168.111.202@7808#369055674#-1966528391#179495047004799] start OK
+2020-01-15 16:47:24 INFO localhost-startStop-1 - the consumer [CID_jpush_message] start OK.
+2020-01-15 16:47:24 INFO localhost-startStop-1 - new name server is chosen. OLD: null , NEW: 112.124.141.191:80. namesrvIndex = 675
+2020-01-15 16:47:24 INFO localhost-startStop-1 - createChannel: begin to connect remote host[112.124.141.191:80] asynchronously
+2020-01-15 16:47:24 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 112.124.141.191:80
+2020-01-15 16:47:24 INFO localhost-startStop-1 - createChannel: connect remote host[112.124.141.191:80] success, DefaultChannelPromise@118d1cfa(success)
+2020-01-15 16:47:24 INFO localhost-startStop-1 - the topic[jpush_message_topic] route info changed, old[null] ,new[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-02, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-01, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-15 16:47:24 INFO localhost-startStop-1 - topicRouteTable.put. Topic = jpush_message_topic, TopicRouteData[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-02, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-01, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-15 16:47:24 INFO localhost-startStop-1 - the topic[%RETRY%CID_jpush_message] route info changed, old[null] ,new[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-02, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-01, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-15 16:47:24 INFO localhost-startStop-1 - topicRouteTable.put. Topic = %RETRY%CID_jpush_message, TopicRouteData[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-02, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-01, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-15 16:47:24 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.25:80] asynchronously
+2020-01-15 16:47:24 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.25:80
+2020-01-15 16:47:24 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.25:80] success, DefaultChannelPromise@8dd7659(success)
+2020-01-15 16:47:24 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-01 0 118.190.213.25:80] failed
+2020-01-15 16:47:24 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.23:80] asynchronously
+2020-01-15 16:47:24 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.23:80
+2020-01-15 16:47:24 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.23:80] success, DefaultChannelPromise@199b135b(success)
+2020-01-15 16:47:24 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-01 1 118.190.213.23:80] failed
+2020-01-15 16:47:24 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.26:80] asynchronously
+2020-01-15 16:47:24 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.26:80
+2020-01-15 16:47:24 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.26:80] success, DefaultChannelPromise@6635689e(success)
+2020-01-15 16:47:24 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-02 0 118.190.213.26:80] failed
+2020-01-15 16:47:24 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.24:80] asynchronously
+2020-01-15 16:47:24 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.24:80
+2020-01-15 16:47:24 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.24:80] success, DefaultChannelPromise@6a738ea6(success)
+2020-01-15 16:47:24 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-02 1 118.190.213.24:80] failed
+2020-01-15 16:47:25 WARN RebalanceService - getConsumerIdListByGroup exception, 118.190.213.26:80 CID_jpush_message
+com.aliyun.openservices.shade.com.alibaba.rocketmq.client.exception.MQBrokerException: CODE: 1  DESC: com.aliyun.openservices.ons.api.impl.authority.exception.AuthenticationException: get user info by accesskey from ALIYUN failed., com.alibaba.ons.open.auth.validator.DynamicBlackAccessValidator.check(DynamicBlackAccessValidator.java:65)
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.MQClientAPIImpl.getConsumerIdListByGroup(MQClientAPIImpl.java:745) ~[ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.findConsumerIdList(MQClientInstance.java:1060) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.rebalanceByTopic(RebalanceImpl.java:262) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.doRebalance(RebalanceImpl.java:225) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.DefaultMQPushConsumerImpl.doRebalance(DefaultMQPushConsumerImpl.java:990) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.doRebalance(MQClientInstance.java:955) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceService.run(RebalanceService.java:41) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at java.lang.Thread.run(Thread.java:744) [na:1.7.0_45]
+2020-01-15 16:47:25 WARN RebalanceService - doRebalance, CID_jpush_message jpush_message_topic, get consumer id list failed
+2020-01-15 16:47:25 WARN RebalanceService - getConsumerIdListByGroup exception, 118.190.213.25:80 CID_jpush_message
+com.aliyun.openservices.shade.com.alibaba.rocketmq.client.exception.MQBrokerException: CODE: 1  DESC: com.aliyun.openservices.ons.api.impl.authority.exception.AuthenticationException: get user info by accesskey from ALIYUN failed., com.alibaba.ons.open.auth.validator.DynamicBlackAccessValidator.check(DynamicBlackAccessValidator.java:65)
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.MQClientAPIImpl.getConsumerIdListByGroup(MQClientAPIImpl.java:745) ~[ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.findConsumerIdList(MQClientInstance.java:1060) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.rebalanceByTopic(RebalanceImpl.java:262) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.doRebalance(RebalanceImpl.java:225) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.DefaultMQPushConsumerImpl.doRebalance(DefaultMQPushConsumerImpl.java:990) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.doRebalance(MQClientInstance.java:955) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceService.run(RebalanceService.java:41) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at java.lang.Thread.run(Thread.java:744) [na:1.7.0_45]
+2020-01-15 16:47:25 WARN RebalanceService - doRebalance, CID_jpush_message %RETRY%CID_jpush_message, get consumer id list failed
+2020-01-15 16:47:25 INFO localhost-startStop-1 - name server address updated. NEW : [106.15.100.140:80, 112.124.141.191:80] , OLD: null
+2020-01-15 16:47:25 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-15 16:47:25 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 2 ClinetID: 192.168.111.202@7808#369055674#-1966528391#179496519805119 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=7808#369055674#-1966528391#179496519805119, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-15 16:47:25 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@7808#369055674#-1966528391#179496519805119]
+2020-01-15 16:47:25 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 16:47:25 INFO localhost-startStop-1 - the client factory [192.168.111.202@7808#369055674#-1966528391#179496519805119] start OK
+2020-01-15 16:47:25 INFO localhost-startStop-1 - the producer [LTAIhb2UX7UkzaB2_INNER_TRACE_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 16:47:25 INFO localhost-startStop-1 - register sendMessage Hook, OnsClientSendMessageHook
+2020-01-15 16:47:25 INFO PullMessageService - PullMessageService service started
+2020-01-15 16:47:25 INFO RebalanceService - RebalanceService service started
+2020-01-15 16:47:25 INFO MQClientFactoryScheduledThread - new name server is chosen. OLD: null , NEW: 112.124.141.191:80. namesrvIndex = 75
+2020-01-15 16:47:25 INFO MQClientFactoryScheduledThread - createChannel: begin to connect remote host[112.124.141.191:80] asynchronously
+2020-01-15 16:47:25 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 112.124.141.191:80
+2020-01-15 16:47:25 INFO MQClientFactoryScheduledThread - createChannel: connect remote host[112.124.141.191:80] success, DefaultChannelPromise@58d9d991(success)
+2020-01-15 16:47:25 INFO localhost-startStop-1 - name server address updated. NEW : [106.15.100.140:80, 112.124.141.191:80] , OLD: null
+2020-01-15 16:47:25 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-15 16:47:25 INFO MQClientFactoryScheduledThread - send heart beat to broker[qd3internet-01 0 118.190.213.25:80] failed
+2020-01-15 16:47:25 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 3 ClinetID: 192.168.111.202@7808#369055674#-1966528391#179496519676825 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=7808#369055674#-1966528391#179496519676825, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-15 16:47:25 INFO MQClientFactoryScheduledThread - send heart beat to broker[qd3internet-01 1 118.190.213.23:80] failed
+2020-01-15 16:47:25 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@7808#369055674#-1966528391#179496519676825]
+2020-01-15 16:47:25 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 16:47:25 INFO localhost-startStop-1 - the client factory [192.168.111.202@7808#369055674#-1966528391#179496519676825] start OK
+2020-01-15 16:47:25 INFO localhost-startStop-1 - the producer [PID_jpush_message] start OK. sendMessageWithVIPChannel=false
+2020-01-15 16:47:25 INFO RebalanceService - RebalanceService service started
+2020-01-15 16:47:25 INFO PullMessageService - PullMessageService service started
+2020-01-15 16:47:25 INFO MQClientFactoryScheduledThread - new name server is chosen. OLD: null , NEW: 112.124.141.191:80. namesrvIndex = 281
+2020-01-15 16:47:25 INFO MQClientFactoryScheduledThread - createChannel: begin to connect remote host[112.124.141.191:80] asynchronously
+2020-01-15 16:47:25 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 112.124.141.191:80
+2020-01-15 16:47:25 INFO MQClientFactoryScheduledThread - createChannel: connect remote host[112.124.141.191:80] success, DefaultChannelPromise@68022358(success)
+2020-01-15 16:47:25 INFO MQClientFactoryScheduledThread - send heart beat to broker[qd3internet-02 0 118.190.213.26:80] failed
+2020-01-15 16:47:25 INFO MQClientFactoryScheduledThread - send heart beat to broker[qd3internet-02 1 118.190.213.24:80] failed
+2020-01-15 17:11:50 INFO localhost-startStop-1 - name server address updated. NEW : [112.124.141.191:80, 106.15.100.140:80] , OLD: null
+2020-01-15 17:11:50 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-15 17:11:50 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 0 ClinetID: 192.168.111.202@12008#369055674#-1966528391#180961143326819 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=12008#369055674#-1966528391#180961143326819, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-15 17:11:50 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@12008#369055674#-1966528391#180961143326819]
+2020-01-15 17:11:50 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 17:11:50 INFO RebalanceService - RebalanceService service started
+2020-01-15 17:11:50 INFO PullMessageService - PullMessageService service started
+2020-01-15 17:11:50 INFO localhost-startStop-1 - the client factory [192.168.111.202@12008#369055674#-1966528391#180961143326819] start OK
+2020-01-15 17:11:50 INFO localhost-startStop-1 - the producer [LTAIhb2UX7UkzaB2_INNER_TRACE_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 17:11:50 INFO localhost-startStop-1 - register consumeMessageHook Hook, OnsConsumeMessageHook
+2020-01-15 17:11:50 INFO localhost-startStop-1 - the consumer [CID_jpush_message] start beginning. messageModel=CLUSTERING, isUnitMode=false
+2020-01-15 17:11:50 INFO MQClientFactoryScheduledThread - new name server is chosen. OLD: null , NEW: 112.124.141.191:80. namesrvIndex = 362
+2020-01-15 17:11:50 INFO localhost-startStop-1 - name server address updated. NEW : [106.15.100.140:80, 112.124.141.191:80] , OLD: null
+2020-01-15 17:11:50 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-15 17:11:50 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 1 ClinetID: 192.168.111.202@12008#369055674#-1966528391#180961143196530 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=12008#369055674#-1966528391#180961143196530, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-15 17:11:50 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@12008#369055674#-1966528391#180961143196530]
+2020-01-15 17:11:50 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 17:11:50 INFO PullMessageService - PullMessageService service started
+2020-01-15 17:11:50 INFO RebalanceService - RebalanceService service started
+2020-01-15 17:11:50 INFO MQClientFactoryScheduledThread - new name server is chosen. OLD: null , NEW: 106.15.100.140:80. namesrvIndex = 638
+2020-01-15 17:11:50 INFO localhost-startStop-1 - the client factory [192.168.111.202@12008#369055674#-1966528391#180961143196530] start OK
+2020-01-15 17:11:50 INFO localhost-startStop-1 - the consumer [CID_jpush_message] start OK.
+2020-01-15 17:11:50 INFO MQClientFactoryScheduledThread - createChannel: begin to connect remote host[106.15.100.140:80] asynchronously
+2020-01-15 17:11:50 INFO MQClientFactoryScheduledThread - createChannel: begin to connect remote host[112.124.141.191:80] asynchronously
+2020-01-15 17:11:50 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 106.15.100.140:80
+2020-01-15 17:11:50 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 112.124.141.191:80
+2020-01-15 17:11:50 INFO MQClientFactoryScheduledThread - createChannel: connect remote host[112.124.141.191:80] success, DefaultChannelPromise@1d98f61(success)
+2020-01-15 17:11:50 INFO MQClientFactoryScheduledThread - createChannel: connect remote host[106.15.100.140:80] success, DefaultChannelPromise@694c05ab(success)
+2020-01-15 17:11:50 INFO MQClientFactoryScheduledThread - the topic[jpush_message_topic] route info changed, old[null] ,new[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-02, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-01, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-15 17:11:50 INFO MQClientFactoryScheduledThread - topicRouteTable.put. Topic = jpush_message_topic, TopicRouteData[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-02, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-01, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-15 17:11:50 INFO MQClientFactoryScheduledThread - the topic[%RETRY%CID_jpush_message] route info changed, old[null] ,new[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-02, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-01, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-15 17:11:50 INFO MQClientFactoryScheduledThread - topicRouteTable.put. Topic = %RETRY%CID_jpush_message, TopicRouteData[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-02, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-01, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-15 17:11:50 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.25:80] asynchronously
+2020-01-15 17:11:50 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.25:80
+2020-01-15 17:11:50 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.25:80] success, DefaultChannelPromise@6e981ed4(success)
+2020-01-15 17:11:50 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-01 0 118.190.213.25:80] failed
+2020-01-15 17:11:50 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.23:80] asynchronously
+2020-01-15 17:11:50 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.23:80
+2020-01-15 17:11:50 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.23:80] success, DefaultChannelPromise@2fdabaf8(success)
+2020-01-15 17:11:51 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-01 1 118.190.213.23:80] failed
+2020-01-15 17:11:51 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.26:80] asynchronously
+2020-01-15 17:11:51 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.26:80
+2020-01-15 17:11:51 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.26:80] success, DefaultChannelPromise@509f9e50(success)
+2020-01-15 17:11:51 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-02 0 118.190.213.26:80] failed
+2020-01-15 17:11:51 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.24:80] asynchronously
+2020-01-15 17:11:51 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.24:80
+2020-01-15 17:11:51 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.24:80] success, DefaultChannelPromise@448b8a19(success)
+2020-01-15 17:11:51 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-02 1 118.190.213.24:80] failed
+2020-01-15 17:11:51 WARN RebalanceService - getConsumerIdListByGroup exception, 118.190.213.25:80 CID_jpush_message
+com.aliyun.openservices.shade.com.alibaba.rocketmq.client.exception.MQBrokerException: CODE: 1  DESC: com.aliyun.openservices.ons.api.impl.authority.exception.AuthenticationException: get user info by accesskey from ALIYUN failed., com.alibaba.ons.open.auth.service.DauthServiceImpl.signatureValidate(DauthServiceImpl.java:258)
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.MQClientAPIImpl.getConsumerIdListByGroup(MQClientAPIImpl.java:745) ~[ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.findConsumerIdList(MQClientInstance.java:1060) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.rebalanceByTopic(RebalanceImpl.java:262) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.doRebalance(RebalanceImpl.java:225) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.DefaultMQPushConsumerImpl.doRebalance(DefaultMQPushConsumerImpl.java:990) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.doRebalance(MQClientInstance.java:955) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceService.run(RebalanceService.java:41) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at java.lang.Thread.run(Thread.java:744) [na:1.7.0_45]
+2020-01-15 17:11:51 WARN RebalanceService - doRebalance, CID_jpush_message jpush_message_topic, get consumer id list failed
+2020-01-15 17:11:51 INFO MQClientFactoryScheduledThread - send heart beat to broker[qd3internet-01 0 118.190.213.25:80] failed
+2020-01-15 17:11:51 INFO localhost-startStop-1 - name server address updated. NEW : [112.124.141.191:80, 106.15.100.140:80] , OLD: null
+2020-01-15 17:11:51 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-15 17:11:51 WARN RebalanceService - getConsumerIdListByGroup exception, 118.190.213.25:80 CID_jpush_message
+com.aliyun.openservices.shade.com.alibaba.rocketmq.client.exception.MQBrokerException: CODE: 1  DESC: com.aliyun.openservices.ons.api.impl.authority.exception.AuthenticationException: get user info by accesskey from ALIYUN failed., com.alibaba.ons.open.auth.validator.DynamicBlackAccessValidator.check(DynamicBlackAccessValidator.java:65)
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.MQClientAPIImpl.getConsumerIdListByGroup(MQClientAPIImpl.java:745) ~[ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.findConsumerIdList(MQClientInstance.java:1060) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.rebalanceByTopic(RebalanceImpl.java:262) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.doRebalance(RebalanceImpl.java:225) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.DefaultMQPushConsumerImpl.doRebalance(DefaultMQPushConsumerImpl.java:990) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.doRebalance(MQClientInstance.java:955) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceService.run(RebalanceService.java:41) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at java.lang.Thread.run(Thread.java:744) [na:1.7.0_45]
+2020-01-15 17:11:51 WARN RebalanceService - doRebalance, CID_jpush_message %RETRY%CID_jpush_message, get consumer id list failed
+2020-01-15 17:11:51 INFO MQClientFactoryScheduledThread - send heart beat to broker[qd3internet-01 1 118.190.213.23:80] failed
+2020-01-15 17:11:51 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 2 ClinetID: 192.168.111.202@12008#369055674#-1966528391#180962907518521 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=12008#369055674#-1966528391#180962907518521, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-15 17:11:51 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@12008#369055674#-1966528391#180962907518521]
+2020-01-15 17:11:51 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 17:11:51 INFO localhost-startStop-1 - the client factory [192.168.111.202@12008#369055674#-1966528391#180962907518521] start OK
+2020-01-15 17:11:51 INFO localhost-startStop-1 - the producer [LTAIhb2UX7UkzaB2_INNER_TRACE_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 17:11:51 INFO localhost-startStop-1 - register sendMessage Hook, OnsClientSendMessageHook
+2020-01-15 17:11:51 INFO PullMessageService - PullMessageService service started
+2020-01-15 17:11:51 INFO RebalanceService - RebalanceService service started
+2020-01-15 17:11:51 INFO MQClientFactoryScheduledThread - new name server is chosen. OLD: null , NEW: 112.124.141.191:80. namesrvIndex = 496
+2020-01-15 17:11:51 INFO MQClientFactoryScheduledThread - createChannel: begin to connect remote host[112.124.141.191:80] asynchronously
+2020-01-15 17:11:51 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 112.124.141.191:80
+2020-01-15 17:11:51 INFO MQClientFactoryScheduledThread - createChannel: connect remote host[112.124.141.191:80] success, DefaultChannelPromise@7f438dba(success)
+2020-01-15 17:11:51 INFO localhost-startStop-1 - name server address updated. NEW : [106.15.100.140:80, 112.124.141.191:80] , OLD: null
+2020-01-15 17:11:51 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-15 17:11:51 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 3 ClinetID: 192.168.111.202@12008#369055674#-1966528391#180962907385951 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=12008#369055674#-1966528391#180962907385951, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-15 17:11:51 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@12008#369055674#-1966528391#180962907385951]
+2020-01-15 17:11:51 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 17:11:51 INFO PullMessageService - PullMessageService service started
+2020-01-15 17:11:51 INFO localhost-startStop-1 - the client factory [192.168.111.202@12008#369055674#-1966528391#180962907385951] start OK
+2020-01-15 17:11:51 INFO localhost-startStop-1 - the producer [PID_jpush_message] start OK. sendMessageWithVIPChannel=false
+2020-01-15 17:11:51 INFO RebalanceService - RebalanceService service started
+2020-01-15 17:11:51 INFO MQClientFactoryScheduledThread - new name server is chosen. OLD: null , NEW: 112.124.141.191:80. namesrvIndex = 849
+2020-01-15 17:11:51 INFO MQClientFactoryScheduledThread - createChannel: begin to connect remote host[112.124.141.191:80] asynchronously
+2020-01-15 17:11:51 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 112.124.141.191:80
+2020-01-15 17:11:51 INFO MQClientFactoryScheduledThread - createChannel: connect remote host[112.124.141.191:80] success, DefaultChannelPromise@1a58dd5b(success)
+2020-01-15 17:11:51 INFO MQClientFactoryScheduledThread - send heart beat to broker[qd3internet-02 0 118.190.213.26:80] failed
+2020-01-15 17:11:51 INFO MQClientFactoryScheduledThread - send heart beat to broker[qd3internet-02 1 118.190.213.24:80] failed
+2020-01-15 17:12:19 INFO localhost-startStop-1 - name server address updated. NEW : [106.15.100.140:80, 112.124.141.191:80] , OLD: null
+2020-01-15 17:12:19 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-15 17:12:19 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 0 ClinetID: 192.168.111.202@13340#369055674#-1966528391#180991150126953 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=13340#369055674#-1966528391#180991150126953, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-15 17:12:19 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@13340#369055674#-1966528391#180991150126953]
+2020-01-15 17:12:19 INFO PullMessageService - PullMessageService service started
+2020-01-15 17:12:19 INFO RebalanceService - RebalanceService service started
+2020-01-15 17:12:19 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 17:12:19 INFO localhost-startStop-1 - the client factory [192.168.111.202@13340#369055674#-1966528391#180991150126953] start OK
+2020-01-15 17:12:19 INFO localhost-startStop-1 - the producer [LTAIhb2UX7UkzaB2_INNER_TRACE_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 17:12:19 INFO localhost-startStop-1 - register consumeMessageHook Hook, OnsConsumeMessageHook
+2020-01-15 17:12:19 INFO MQClientFactoryScheduledThread - new name server is chosen. OLD: null , NEW: 112.124.141.191:80. namesrvIndex = 697
+2020-01-15 17:12:19 INFO localhost-startStop-1 - the consumer [CID_jpush_message] start beginning. messageModel=CLUSTERING, isUnitMode=false
+2020-01-15 17:12:20 INFO MQClientFactoryScheduledThread - createChannel: begin to connect remote host[112.124.141.191:80] asynchronously
+2020-01-15 17:12:20 INFO localhost-startStop-1 - name server address updated. NEW : [106.15.100.140:80, 112.124.141.191:80] , OLD: null
+2020-01-15 17:12:20 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-15 17:12:20 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 112.124.141.191:80
+2020-01-15 17:12:20 INFO MQClientFactoryScheduledThread - createChannel: connect remote host[112.124.141.191:80] success, DefaultChannelPromise@7669db88(success)
+2020-01-15 17:12:20 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 1 ClinetID: 192.168.111.202@13340#369055674#-1966528391#180991150022038 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=13340#369055674#-1966528391#180991150022038, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-15 17:12:20 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@13340#369055674#-1966528391#180991150022038]
+2020-01-15 17:12:20 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 17:12:20 INFO PullMessageService - PullMessageService service started
+2020-01-15 17:12:20 INFO RebalanceService - RebalanceService service started
+2020-01-15 17:12:20 INFO localhost-startStop-1 - the client factory [192.168.111.202@13340#369055674#-1966528391#180991150022038] start OK
+2020-01-15 17:12:20 INFO localhost-startStop-1 - the consumer [CID_jpush_message] start OK.
+2020-01-15 17:12:20 INFO localhost-startStop-1 - new name server is chosen. OLD: null , NEW: 106.15.100.140:80. namesrvIndex = 14
+2020-01-15 17:12:20 INFO localhost-startStop-1 - createChannel: begin to connect remote host[106.15.100.140:80] asynchronously
+2020-01-15 17:12:20 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 106.15.100.140:80
+2020-01-15 17:12:20 INFO localhost-startStop-1 - createChannel: connect remote host[106.15.100.140:80] success, DefaultChannelPromise@30c9fa2b(success)
+2020-01-15 17:12:20 INFO localhost-startStop-1 - the topic[jpush_message_topic] route info changed, old[null] ,new[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-01, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-02, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-15 17:12:20 INFO localhost-startStop-1 - topicRouteTable.put. Topic = jpush_message_topic, TopicRouteData[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-01, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-02, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-15 17:12:20 INFO localhost-startStop-1 - the topic[%RETRY%CID_jpush_message] route info changed, old[null] ,new[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-01, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-02, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-15 17:12:20 INFO localhost-startStop-1 - topicRouteTable.put. Topic = %RETRY%CID_jpush_message, TopicRouteData[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-01, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-02, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-15 17:12:20 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.25:80] asynchronously
+2020-01-15 17:12:20 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.25:80
+2020-01-15 17:12:20 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.25:80] success, DefaultChannelPromise@8399898(success)
+2020-01-15 17:12:20 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-01 0 118.190.213.25:80] failed
+2020-01-15 17:12:20 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.23:80] asynchronously
+2020-01-15 17:12:20 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.23:80
+2020-01-15 17:12:20 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.23:80] success, DefaultChannelPromise@2fddb3c8(success)
+2020-01-15 17:12:20 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-01 1 118.190.213.23:80] failed
+2020-01-15 17:12:20 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.26:80] asynchronously
+2020-01-15 17:12:20 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.26:80
+2020-01-15 17:12:20 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.26:80] success, DefaultChannelPromise@2d5ba5f6(success)
+2020-01-15 17:12:20 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-02 0 118.190.213.26:80] failed
+2020-01-15 17:12:20 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.24:80] asynchronously
+2020-01-15 17:12:20 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.24:80
+2020-01-15 17:12:20 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.24:80] success, DefaultChannelPromise@719d0d16(success)
+2020-01-15 17:12:21 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-02 1 118.190.213.24:80] failed
+2020-01-15 17:12:21 WARN RebalanceService - getConsumerIdListByGroup exception, 118.190.213.26:80 CID_jpush_message
+com.aliyun.openservices.shade.com.alibaba.rocketmq.client.exception.MQBrokerException: CODE: 1  DESC: com.aliyun.openservices.ons.api.impl.authority.exception.AuthenticationException: get user info by accesskey from ALIYUN failed., com.alibaba.ons.open.auth.validator.DynamicBlackAccessValidator.check(DynamicBlackAccessValidator.java:65)
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.MQClientAPIImpl.getConsumerIdListByGroup(MQClientAPIImpl.java:745) ~[ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.findConsumerIdList(MQClientInstance.java:1060) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.rebalanceByTopic(RebalanceImpl.java:262) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.doRebalance(RebalanceImpl.java:225) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.DefaultMQPushConsumerImpl.doRebalance(DefaultMQPushConsumerImpl.java:990) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.doRebalance(MQClientInstance.java:955) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceService.run(RebalanceService.java:41) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at java.lang.Thread.run(Thread.java:744) [na:1.7.0_45]
+2020-01-15 17:12:21 WARN RebalanceService - doRebalance, CID_jpush_message jpush_message_topic, get consumer id list failed
+2020-01-15 17:12:21 WARN RebalanceService - getConsumerIdListByGroup exception, 118.190.213.26:80 CID_jpush_message
+com.aliyun.openservices.shade.com.alibaba.rocketmq.client.exception.MQBrokerException: CODE: 1  DESC: com.aliyun.openservices.ons.api.impl.authority.exception.AuthenticationException: get user info by accesskey from ALIYUN failed., com.alibaba.ons.open.auth.validator.DynamicBlackAccessValidator.check(DynamicBlackAccessValidator.java:65)
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.MQClientAPIImpl.getConsumerIdListByGroup(MQClientAPIImpl.java:745) ~[ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.findConsumerIdList(MQClientInstance.java:1060) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.rebalanceByTopic(RebalanceImpl.java:262) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.doRebalance(RebalanceImpl.java:225) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.DefaultMQPushConsumerImpl.doRebalance(DefaultMQPushConsumerImpl.java:990) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.doRebalance(MQClientInstance.java:955) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceService.run(RebalanceService.java:41) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at java.lang.Thread.run(Thread.java:744) [na:1.7.0_45]
+2020-01-15 17:12:21 WARN RebalanceService - doRebalance, CID_jpush_message %RETRY%CID_jpush_message, get consumer id list failed
+2020-01-15 17:12:21 INFO MQClientFactoryScheduledThread - send heart beat to broker[qd3internet-01 0 118.190.213.25:80] failed
+2020-01-15 17:12:21 INFO localhost-startStop-1 - name server address updated. NEW : [106.15.100.140:80, 112.124.141.191:80] , OLD: null
+2020-01-15 17:12:21 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-15 17:12:21 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 2 ClinetID: 192.168.111.202@13340#369055674#-1966528391#180992599945888 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=13340#369055674#-1966528391#180992599945888, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-15 17:12:21 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@13340#369055674#-1966528391#180992599945888]
+2020-01-15 17:12:21 INFO PullMessageService - PullMessageService service started
+2020-01-15 17:12:21 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 17:12:21 INFO localhost-startStop-1 - the client factory [192.168.111.202@13340#369055674#-1966528391#180992599945888] start OK
+2020-01-15 17:12:21 INFO RebalanceService - RebalanceService service started
+2020-01-15 17:12:21 INFO localhost-startStop-1 - the producer [LTAIhb2UX7UkzaB2_INNER_TRACE_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 17:12:21 INFO localhost-startStop-1 - register sendMessage Hook, OnsClientSendMessageHook
+2020-01-15 17:12:21 INFO MQClientFactoryScheduledThread - new name server is chosen. OLD: null , NEW: 112.124.141.191:80. namesrvIndex = 737
+2020-01-15 17:12:21 INFO MQClientFactoryScheduledThread - createChannel: begin to connect remote host[112.124.141.191:80] asynchronously
+2020-01-15 17:12:21 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 112.124.141.191:80
+2020-01-15 17:12:21 INFO MQClientFactoryScheduledThread - createChannel: connect remote host[112.124.141.191:80] success, DefaultChannelPromise@1309427c(success)
+2020-01-15 17:12:21 INFO localhost-startStop-1 - name server address updated. NEW : [112.124.141.191:80, 106.15.100.140:80] , OLD: null
+2020-01-15 17:12:21 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-15 17:12:21 INFO MQClientFactoryScheduledThread - send heart beat to broker[qd3internet-01 1 118.190.213.23:80] failed
+2020-01-15 17:12:21 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 3 ClinetID: 192.168.111.202@13340#369055674#-1966528391#180992599816739 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=13340#369055674#-1966528391#180992599816739, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-15 17:12:21 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@13340#369055674#-1966528391#180992599816739]
+2020-01-15 17:12:21 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 17:12:21 INFO localhost-startStop-1 - the client factory [192.168.111.202@13340#369055674#-1966528391#180992599816739] start OK
+2020-01-15 17:12:21 INFO localhost-startStop-1 - the producer [PID_jpush_message] start OK. sendMessageWithVIPChannel=false
+2020-01-15 17:12:21 INFO PullMessageService - PullMessageService service started
+2020-01-15 17:12:21 INFO RebalanceService - RebalanceService service started
+2020-01-15 17:12:21 INFO MQClientFactoryScheduledThread - new name server is chosen. OLD: null , NEW: 106.15.100.140:80. namesrvIndex = 473
+2020-01-15 17:12:21 INFO MQClientFactoryScheduledThread - createChannel: begin to connect remote host[106.15.100.140:80] asynchronously
+2020-01-15 17:12:21 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 106.15.100.140:80
+2020-01-15 17:12:21 INFO MQClientFactoryScheduledThread - send heart beat to broker[qd3internet-02 0 118.190.213.26:80] failed
+2020-01-15 17:12:21 INFO MQClientFactoryScheduledThread - createChannel: connect remote host[106.15.100.140:80] success, DefaultChannelPromise@631e2173(success)
+2020-01-15 17:19:40 INFO localhost-startStop-1 - name server address updated. NEW : [106.15.100.140:80, 112.124.141.191:80] , OLD: null
+2020-01-15 17:19:40 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-15 17:19:41 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 0 ClinetID: 192.168.111.202@14032#369055674#-1966528391#181432254426843 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=14032#369055674#-1966528391#181432254426843, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-15 17:19:41 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@14032#369055674#-1966528391#181432254426843]
+2020-01-15 17:19:41 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 17:19:41 INFO PullMessageService - PullMessageService service started
+2020-01-15 17:19:41 INFO RebalanceService - RebalanceService service started
+2020-01-15 17:19:41 INFO localhost-startStop-1 - the client factory [192.168.111.202@14032#369055674#-1966528391#181432254426843] start OK
+2020-01-15 17:19:41 INFO localhost-startStop-1 - the producer [LTAIhb2UX7UkzaB2_INNER_TRACE_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 17:19:41 INFO localhost-startStop-1 - register consumeMessageHook Hook, OnsConsumeMessageHook
+2020-01-15 17:19:41 INFO localhost-startStop-1 - the consumer [CID_jpush_message] start beginning. messageModel=CLUSTERING, isUnitMode=false
+2020-01-15 17:19:41 INFO MQClientFactoryScheduledThread - new name server is chosen. OLD: null , NEW: 106.15.100.140:80. namesrvIndex = 284
+2020-01-15 17:19:41 INFO localhost-startStop-1 - name server address updated. NEW : [112.124.141.191:80, 106.15.100.140:80] , OLD: null
+2020-01-15 17:19:41 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-15 17:19:41 INFO MQClientFactoryScheduledThread - createChannel: begin to connect remote host[106.15.100.140:80] asynchronously
+2020-01-15 17:19:41 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 106.15.100.140:80
+2020-01-15 17:19:41 INFO MQClientFactoryScheduledThread - createChannel: connect remote host[106.15.100.140:80] success, DefaultChannelPromise@16cfac5b(success)
+2020-01-15 17:19:41 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 1 ClinetID: 192.168.111.202@14032#369055674#-1966528391#181432254161133 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=14032#369055674#-1966528391#181432254161133, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-15 17:19:41 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@14032#369055674#-1966528391#181432254161133]
+2020-01-15 17:19:41 INFO PullMessageService - PullMessageService service started
+2020-01-15 17:19:41 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 17:19:41 INFO RebalanceService - RebalanceService service started
+2020-01-15 17:19:41 INFO localhost-startStop-1 - the client factory [192.168.111.202@14032#369055674#-1966528391#181432254161133] start OK
+2020-01-15 17:19:41 INFO localhost-startStop-1 - the consumer [CID_jpush_message] start OK.
+2020-01-15 17:19:41 INFO localhost-startStop-1 - new name server is chosen. OLD: null , NEW: 106.15.100.140:80. namesrvIndex = 599
+2020-01-15 17:19:41 INFO localhost-startStop-1 - createChannel: begin to connect remote host[106.15.100.140:80] asynchronously
+2020-01-15 17:19:41 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 106.15.100.140:80
+2020-01-15 17:19:41 INFO localhost-startStop-1 - createChannel: connect remote host[106.15.100.140:80] success, DefaultChannelPromise@76840d1(success)
+2020-01-15 17:19:41 INFO localhost-startStop-1 - the topic[jpush_message_topic] route info changed, old[null] ,new[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-01, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-02, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-15 17:19:41 INFO localhost-startStop-1 - topicRouteTable.put. Topic = jpush_message_topic, TopicRouteData[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-01, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-02, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-15 17:19:41 INFO localhost-startStop-1 - the topic[%RETRY%CID_jpush_message] route info changed, old[null] ,new[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-01, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-02, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-15 17:19:41 INFO localhost-startStop-1 - topicRouteTable.put. Topic = %RETRY%CID_jpush_message, TopicRouteData[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-01, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-02, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-15 17:19:41 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.25:80] asynchronously
+2020-01-15 17:19:41 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.25:80
+2020-01-15 17:19:41 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.25:80] success, DefaultChannelPromise@7395aebd(success)
+2020-01-15 17:19:41 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-01 0 118.190.213.25:80] failed
+2020-01-15 17:19:41 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.23:80] asynchronously
+2020-01-15 17:19:41 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.23:80
+2020-01-15 17:19:41 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.23:80] success, DefaultChannelPromise@2035e0df(success)
+2020-01-15 17:19:41 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-01 1 118.190.213.23:80] failed
+2020-01-15 17:19:41 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.26:80] asynchronously
+2020-01-15 17:19:41 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.26:80
+2020-01-15 17:19:41 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.26:80] success, DefaultChannelPromise@5daf7c3f(success)
+2020-01-15 17:19:41 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-02 0 118.190.213.26:80] failed
+2020-01-15 17:19:41 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.24:80] asynchronously
+2020-01-15 17:19:41 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.24:80
+2020-01-15 17:19:41 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.24:80] success, DefaultChannelPromise@2d700841(success)
+2020-01-15 17:19:42 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-02 1 118.190.213.24:80] failed
+2020-01-15 17:19:42 WARN RebalanceService - getConsumerIdListByGroup exception, 118.190.213.26:80 CID_jpush_message
+com.aliyun.openservices.shade.com.alibaba.rocketmq.client.exception.MQBrokerException: CODE: 1  DESC: com.aliyun.openservices.ons.api.impl.authority.exception.AuthenticationException: get user info by accesskey from ALIYUN failed., com.alibaba.ons.open.auth.validator.DynamicBlackAccessValidator.check(DynamicBlackAccessValidator.java:65)
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.MQClientAPIImpl.getConsumerIdListByGroup(MQClientAPIImpl.java:745) ~[ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.findConsumerIdList(MQClientInstance.java:1060) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.rebalanceByTopic(RebalanceImpl.java:262) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.doRebalance(RebalanceImpl.java:225) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.DefaultMQPushConsumerImpl.doRebalance(DefaultMQPushConsumerImpl.java:990) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.doRebalance(MQClientInstance.java:955) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceService.run(RebalanceService.java:41) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at java.lang.Thread.run(Thread.java:744) [na:1.7.0_45]
+2020-01-15 17:19:42 WARN RebalanceService - doRebalance, CID_jpush_message jpush_message_topic, get consumer id list failed
+2020-01-15 17:19:42 WARN RebalanceService - getConsumerIdListByGroup exception, 118.190.213.25:80 CID_jpush_message
+com.aliyun.openservices.shade.com.alibaba.rocketmq.client.exception.MQBrokerException: CODE: 1  DESC: com.aliyun.openservices.ons.api.impl.authority.exception.AuthenticationException: get user info by accesskey from ALIYUN failed., com.alibaba.ons.open.auth.service.DauthServiceImpl.signatureValidate(DauthServiceImpl.java:258)
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.MQClientAPIImpl.getConsumerIdListByGroup(MQClientAPIImpl.java:745) ~[ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.findConsumerIdList(MQClientInstance.java:1060) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.rebalanceByTopic(RebalanceImpl.java:262) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.doRebalance(RebalanceImpl.java:225) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.DefaultMQPushConsumerImpl.doRebalance(DefaultMQPushConsumerImpl.java:990) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.doRebalance(MQClientInstance.java:955) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceService.run(RebalanceService.java:41) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at java.lang.Thread.run(Thread.java:744) [na:1.7.0_45]
+2020-01-15 17:19:42 WARN RebalanceService - doRebalance, CID_jpush_message %RETRY%CID_jpush_message, get consumer id list failed
+2020-01-15 17:19:42 INFO MQClientFactoryScheduledThread - send heart beat to broker[qd3internet-01 0 118.190.213.25:80] failed
+2020-01-15 17:19:42 INFO MQClientFactoryScheduledThread - send heart beat to broker[qd3internet-01 1 118.190.213.23:80] failed
+2020-01-15 17:19:42 INFO localhost-startStop-1 - name server address updated. NEW : [112.124.141.191:80, 106.15.100.140:80] , OLD: null
+2020-01-15 17:19:42 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-15 17:19:42 INFO MQClientFactoryScheduledThread - send heart beat to broker[qd3internet-02 0 118.190.213.26:80] failed
+2020-01-15 17:19:42 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 2 ClinetID: 192.168.111.202@14032#369055674#-1966528391#181433704853320 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=14032#369055674#-1966528391#181433704853320, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-15 17:19:42 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@14032#369055674#-1966528391#181433704853320]
+2020-01-15 17:19:42 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 17:19:42 INFO localhost-startStop-1 - the client factory [192.168.111.202@14032#369055674#-1966528391#181433704853320] start OK
+2020-01-15 17:19:42 INFO localhost-startStop-1 - the producer [LTAIhb2UX7UkzaB2_INNER_TRACE_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 17:19:42 INFO PullMessageService - PullMessageService service started
+2020-01-15 17:19:42 INFO RebalanceService - RebalanceService service started
+2020-01-15 17:19:42 INFO localhost-startStop-1 - register sendMessage Hook, OnsClientSendMessageHook
+2020-01-15 17:19:42 INFO MQClientFactoryScheduledThread - send heart beat to broker[qd3internet-02 1 118.190.213.24:80] failed
+2020-01-15 17:19:42 INFO MQClientFactoryScheduledThread - new name server is chosen. OLD: null , NEW: 106.15.100.140:80. namesrvIndex = 439
+2020-01-15 17:19:42 INFO MQClientFactoryScheduledThread - createChannel: begin to connect remote host[106.15.100.140:80] asynchronously
+2020-01-15 17:19:42 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 106.15.100.140:80
+2020-01-15 17:19:42 INFO MQClientFactoryScheduledThread - createChannel: connect remote host[106.15.100.140:80] success, DefaultChannelPromise@324d2f4f(success)
+2020-01-15 17:19:42 INFO localhost-startStop-1 - name server address updated. NEW : [112.124.141.191:80, 106.15.100.140:80] , OLD: null
+2020-01-15 17:19:42 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-15 17:19:42 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 3 ClinetID: 192.168.111.202@14032#369055674#-1966528391#181433704731013 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=14032#369055674#-1966528391#181433704731013, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-15 17:19:42 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@14032#369055674#-1966528391#181433704731013]
+2020-01-15 17:19:42 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 17:19:42 INFO localhost-startStop-1 - the client factory [192.168.111.202@14032#369055674#-1966528391#181433704731013] start OK
+2020-01-15 17:19:42 INFO localhost-startStop-1 - the producer [PID_jpush_message] start OK. sendMessageWithVIPChannel=false
+2020-01-15 17:19:42 INFO RebalanceService - RebalanceService service started
+2020-01-15 17:19:42 INFO PullMessageService - PullMessageService service started
+2020-01-15 17:19:42 INFO MQClientFactoryScheduledThread - new name server is chosen. OLD: null , NEW: 112.124.141.191:80. namesrvIndex = 412
+2020-01-15 17:19:42 INFO MQClientFactoryScheduledThread - createChannel: begin to connect remote host[112.124.141.191:80] asynchronously
+2020-01-15 17:19:42 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 112.124.141.191:80
+2020-01-15 17:19:42 INFO MQClientFactoryScheduledThread - createChannel: connect remote host[112.124.141.191:80] success, DefaultChannelPromise@4f6f1fbd(success)
+2020-01-15 17:26:03 INFO localhost-startStop-1 - name server address updated. NEW : [106.15.100.140:80, 112.124.141.191:80] , OLD: null
+2020-01-15 17:26:03 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-15 17:26:03 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 0 ClinetID: 192.168.111.202@13984#369055674#-1966528391#181815154693352 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=13984#369055674#-1966528391#181815154693352, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-15 17:26:03 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@13984#369055674#-1966528391#181815154693352]
+2020-01-15 17:26:03 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 17:26:03 INFO PullMessageService - PullMessageService service started
+2020-01-15 17:26:03 INFO RebalanceService - RebalanceService service started
+2020-01-15 17:26:03 INFO localhost-startStop-1 - the client factory [192.168.111.202@13984#369055674#-1966528391#181815154693352] start OK
+2020-01-15 17:26:03 INFO localhost-startStop-1 - the producer [LTAIhb2UX7UkzaB2_INNER_TRACE_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 17:26:03 INFO localhost-startStop-1 - register consumeMessageHook Hook, OnsConsumeMessageHook
+2020-01-15 17:26:03 INFO localhost-startStop-1 - the consumer [CID_jpush_message] start beginning. messageModel=CLUSTERING, isUnitMode=false
+2020-01-15 17:26:03 INFO MQClientFactoryScheduledThread - new name server is chosen. OLD: null , NEW: 106.15.100.140:80. namesrvIndex = 572
+2020-01-15 17:26:04 INFO MQClientFactoryScheduledThread - createChannel: begin to connect remote host[106.15.100.140:80] asynchronously
+2020-01-15 17:26:04 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 106.15.100.140:80
+2020-01-15 17:26:04 INFO MQClientFactoryScheduledThread - createChannel: connect remote host[106.15.100.140:80] success, DefaultChannelPromise@201d21af(success)
+2020-01-15 17:26:04 INFO localhost-startStop-1 - name server address updated. NEW : [112.124.141.191:80, 106.15.100.140:80] , OLD: null
+2020-01-15 17:26:04 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-15 17:26:04 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 1 ClinetID: 192.168.111.202@13984#369055674#-1966528391#181815154588436 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=13984#369055674#-1966528391#181815154588436, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-15 17:26:04 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@13984#369055674#-1966528391#181815154588436]
+2020-01-15 17:26:04 INFO PullMessageService - PullMessageService service started
+2020-01-15 17:26:04 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 17:26:04 INFO localhost-startStop-1 - the client factory [192.168.111.202@13984#369055674#-1966528391#181815154588436] start OK
+2020-01-15 17:26:04 INFO localhost-startStop-1 - the consumer [CID_jpush_message] start OK.
+2020-01-15 17:26:04 INFO localhost-startStop-1 - new name server is chosen. OLD: null , NEW: 106.15.100.140:80. namesrvIndex = 833
+2020-01-15 17:26:04 INFO localhost-startStop-1 - createChannel: begin to connect remote host[106.15.100.140:80] asynchronously
+2020-01-15 17:26:04 INFO RebalanceService - RebalanceService service started
+2020-01-15 17:26:04 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 106.15.100.140:80
+2020-01-15 17:26:04 INFO localhost-startStop-1 - createChannel: connect remote host[106.15.100.140:80] success, DefaultChannelPromise@1cf8911a(success)
+2020-01-15 17:26:04 INFO localhost-startStop-1 - the topic[jpush_message_topic] route info changed, old[null] ,new[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-01, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-02, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-15 17:26:04 INFO localhost-startStop-1 - topicRouteTable.put. Topic = jpush_message_topic, TopicRouteData[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-01, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-02, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-15 17:26:04 INFO localhost-startStop-1 - the topic[%RETRY%CID_jpush_message] route info changed, old[null] ,new[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-01, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-02, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-15 17:26:04 INFO localhost-startStop-1 - topicRouteTable.put. Topic = %RETRY%CID_jpush_message, TopicRouteData[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-01, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-02, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-15 17:26:04 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.25:80] asynchronously
+2020-01-15 17:26:04 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.25:80
+2020-01-15 17:26:04 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.25:80] success, DefaultChannelPromise@7247d087(success)
+2020-01-15 17:26:04 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-01 0 118.190.213.25:80] failed
+2020-01-15 17:26:04 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.23:80] asynchronously
+2020-01-15 17:26:04 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.23:80
+2020-01-15 17:26:04 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.23:80] success, DefaultChannelPromise@3263aab2(success)
+2020-01-15 17:26:04 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-01 1 118.190.213.23:80] failed
+2020-01-15 17:26:04 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.26:80] asynchronously
+2020-01-15 17:26:04 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.26:80
+2020-01-15 17:26:04 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.26:80] success, DefaultChannelPromise@6926163b(success)
+2020-01-15 17:26:04 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-02 0 118.190.213.26:80] failed
+2020-01-15 17:26:04 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.24:80] asynchronously
+2020-01-15 17:26:04 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.24:80
+2020-01-15 17:26:04 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.24:80] success, DefaultChannelPromise@68355f70(success)
+2020-01-15 17:26:05 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-02 1 118.190.213.24:80] failed
+2020-01-15 17:26:05 WARN RebalanceService - getConsumerIdListByGroup exception, 118.190.213.26:80 CID_jpush_message
+com.aliyun.openservices.shade.com.alibaba.rocketmq.client.exception.MQBrokerException: CODE: 1  DESC: com.aliyun.openservices.ons.api.impl.authority.exception.AuthenticationException: get user info by accesskey from ALIYUN failed., com.alibaba.ons.open.auth.validator.DynamicBlackAccessValidator.check(DynamicBlackAccessValidator.java:65)
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.MQClientAPIImpl.getConsumerIdListByGroup(MQClientAPIImpl.java:745) ~[ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.findConsumerIdList(MQClientInstance.java:1060) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.rebalanceByTopic(RebalanceImpl.java:262) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.doRebalance(RebalanceImpl.java:225) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.DefaultMQPushConsumerImpl.doRebalance(DefaultMQPushConsumerImpl.java:990) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.doRebalance(MQClientInstance.java:955) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceService.run(RebalanceService.java:41) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at java.lang.Thread.run(Thread.java:744) [na:1.7.0_45]
+2020-01-15 17:26:05 WARN RebalanceService - doRebalance, CID_jpush_message jpush_message_topic, get consumer id list failed
+2020-01-15 17:26:05 INFO localhost-startStop-1 - name server address updated. NEW : [106.15.100.140:80, 112.124.141.191:80] , OLD: null
+2020-01-15 17:26:05 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-15 17:26:05 WARN RebalanceService - getConsumerIdListByGroup exception, 118.190.213.25:80 CID_jpush_message
+com.aliyun.openservices.shade.com.alibaba.rocketmq.client.exception.MQBrokerException: CODE: 1  DESC: com.aliyun.openservices.ons.api.impl.authority.exception.AuthenticationException: get user info by accesskey from ALIYUN failed., com.alibaba.ons.open.auth.service.DauthServiceImpl.signatureValidate(DauthServiceImpl.java:258)
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.MQClientAPIImpl.getConsumerIdListByGroup(MQClientAPIImpl.java:745) ~[ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.findConsumerIdList(MQClientInstance.java:1060) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.rebalanceByTopic(RebalanceImpl.java:262) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.doRebalance(RebalanceImpl.java:225) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.DefaultMQPushConsumerImpl.doRebalance(DefaultMQPushConsumerImpl.java:990) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.doRebalance(MQClientInstance.java:955) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceService.run(RebalanceService.java:41) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at java.lang.Thread.run(Thread.java:744) [na:1.7.0_45]
+2020-01-15 17:26:05 WARN RebalanceService - doRebalance, CID_jpush_message %RETRY%CID_jpush_message, get consumer id list failed
+2020-01-15 17:26:05 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 2 ClinetID: 192.168.111.202@13984#369055674#-1966528391#181816642923977 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=13984#369055674#-1966528391#181816642923977, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-15 17:26:05 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@13984#369055674#-1966528391#181816642923977]
+2020-01-15 17:26:05 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 17:26:05 INFO localhost-startStop-1 - the client factory [192.168.111.202@13984#369055674#-1966528391#181816642923977] start OK
+2020-01-15 17:26:05 INFO localhost-startStop-1 - the producer [LTAIhb2UX7UkzaB2_INNER_TRACE_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 17:26:05 INFO RebalanceService - RebalanceService service started
+2020-01-15 17:26:05 INFO localhost-startStop-1 - register sendMessage Hook, OnsClientSendMessageHook
+2020-01-15 17:26:05 INFO PullMessageService - PullMessageService service started
+2020-01-15 17:26:05 INFO MQClientFactoryScheduledThread - new name server is chosen. OLD: null , NEW: 106.15.100.140:80. namesrvIndex = 984
+2020-01-15 17:26:05 INFO MQClientFactoryScheduledThread - createChannel: begin to connect remote host[106.15.100.140:80] asynchronously
+2020-01-15 17:26:05 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 106.15.100.140:80
+2020-01-15 17:26:05 INFO MQClientFactoryScheduledThread - createChannel: connect remote host[106.15.100.140:80] success, DefaultChannelPromise@339b6365(success)
+2020-01-15 17:26:05 INFO localhost-startStop-1 - name server address updated. NEW : [112.124.141.191:80, 106.15.100.140:80] , OLD: null
+2020-01-15 17:26:05 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-15 17:26:05 INFO MQClientFactoryScheduledThread - send heart beat to broker[qd3internet-01 0 118.190.213.25:80] failed
+2020-01-15 17:26:05 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 3 ClinetID: 192.168.111.202@13984#369055674#-1966528391#181816642798535 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=13984#369055674#-1966528391#181816642798535, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-15 17:26:05 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@13984#369055674#-1966528391#181816642798535]
+2020-01-15 17:26:05 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 17:26:05 INFO localhost-startStop-1 - the client factory [192.168.111.202@13984#369055674#-1966528391#181816642798535] start OK
+2020-01-15 17:26:05 INFO localhost-startStop-1 - the producer [PID_jpush_message] start OK. sendMessageWithVIPChannel=false
+2020-01-15 17:26:05 INFO PullMessageService - PullMessageService service started
+2020-01-15 17:26:05 INFO RebalanceService - RebalanceService service started
+2020-01-15 17:26:05 INFO MQClientFactoryScheduledThread - new name server is chosen. OLD: null , NEW: 112.124.141.191:80. namesrvIndex = 322
+2020-01-15 17:26:05 INFO MQClientFactoryScheduledThread - createChannel: begin to connect remote host[112.124.141.191:80] asynchronously
+2020-01-15 17:26:05 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 112.124.141.191:80
+2020-01-15 17:26:05 INFO MQClientFactoryScheduledThread - createChannel: connect remote host[112.124.141.191:80] success, DefaultChannelPromise@402c8ee0(success)
+2020-01-15 17:26:05 INFO MQClientFactoryScheduledThread - send heart beat to broker[qd3internet-01 1 118.190.213.23:80] failed
+2020-01-15 17:26:05 INFO MQClientFactoryScheduledThread - send heart beat to broker[qd3internet-02 0 118.190.213.26:80] failed
+2020-01-15 17:26:05 INFO MQClientFactoryScheduledThread - send heart beat to broker[qd3internet-02 1 118.190.213.24:80] failed
+2020-01-15 18:11:31 INFO localhost-startStop-1 - name server address updated. NEW : [112.124.141.191:80, 106.15.100.140:80] , OLD: null
+2020-01-15 18:11:31 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-15 18:11:31 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 0 ClinetID: 192.168.111.202@8776#369055674#-1966528391#184542702130929 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=8776#369055674#-1966528391#184542702130929, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-15 18:11:31 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@8776#369055674#-1966528391#184542702130929]
+2020-01-15 18:11:31 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 18:11:31 INFO RebalanceService - RebalanceService service started
+2020-01-15 18:11:31 INFO PullMessageService - PullMessageService service started
+2020-01-15 18:11:31 INFO localhost-startStop-1 - the client factory [192.168.111.202@8776#369055674#-1966528391#184542702130929] start OK
+2020-01-15 18:11:31 INFO localhost-startStop-1 - the producer [LTAIhb2UX7UkzaB2_INNER_TRACE_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 18:11:31 INFO localhost-startStop-1 - register consumeMessageHook Hook, OnsConsumeMessageHook
+2020-01-15 18:11:31 INFO localhost-startStop-1 - the consumer [CID_jpush_message] start beginning. messageModel=CLUSTERING, isUnitMode=false
+2020-01-15 18:11:31 INFO MQClientFactoryScheduledThread - new name server is chosen. OLD: null , NEW: 112.124.141.191:80. namesrvIndex = 136
+2020-01-15 18:11:31 INFO MQClientFactoryScheduledThread - createChannel: begin to connect remote host[112.124.141.191:80] asynchronously
+2020-01-15 18:11:31 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 112.124.141.191:80
+2020-01-15 18:11:31 INFO MQClientFactoryScheduledThread - createChannel: connect remote host[112.124.141.191:80] success, DefaultChannelPromise@9cafd65(success)
+2020-01-15 18:11:31 INFO localhost-startStop-1 - name server address updated. NEW : [112.124.141.191:80, 106.15.100.140:80] , OLD: null
+2020-01-15 18:11:31 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-15 18:11:31 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 1 ClinetID: 192.168.111.202@8776#369055674#-1966528391#184542702023447 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=8776#369055674#-1966528391#184542702023447, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-15 18:11:31 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@8776#369055674#-1966528391#184542702023447]
+2020-01-15 18:11:31 INFO PullMessageService - PullMessageService service started
+2020-01-15 18:11:31 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 18:11:31 INFO RebalanceService - RebalanceService service started
+2020-01-15 18:11:31 INFO localhost-startStop-1 - the client factory [192.168.111.202@8776#369055674#-1966528391#184542702023447] start OK
+2020-01-15 18:11:31 INFO localhost-startStop-1 - the consumer [CID_jpush_message] start OK.
+2020-01-15 18:11:31 INFO localhost-startStop-1 - new name server is chosen. OLD: null , NEW: 112.124.141.191:80. namesrvIndex = 248
+2020-01-15 18:11:31 INFO localhost-startStop-1 - createChannel: begin to connect remote host[112.124.141.191:80] asynchronously
+2020-01-15 18:11:31 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 112.124.141.191:80
+2020-01-15 18:11:31 INFO localhost-startStop-1 - createChannel: connect remote host[112.124.141.191:80] success, DefaultChannelPromise@300d5ed3(success)
+2020-01-15 18:11:32 INFO localhost-startStop-1 - the topic[jpush_message_topic] route info changed, old[null] ,new[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-01, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-02, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-15 18:11:32 INFO localhost-startStop-1 - topicRouteTable.put. Topic = jpush_message_topic, TopicRouteData[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-01, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-02, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-15 18:11:32 INFO localhost-startStop-1 - the topic[%RETRY%CID_jpush_message] route info changed, old[null] ,new[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-01, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-02, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-15 18:11:32 INFO localhost-startStop-1 - topicRouteTable.put. Topic = %RETRY%CID_jpush_message, TopicRouteData[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-01, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-02, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-15 18:11:32 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.25:80] asynchronously
+2020-01-15 18:11:32 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.25:80
+2020-01-15 18:11:32 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.25:80] success, DefaultChannelPromise@69d59389(success)
+2020-01-15 18:11:32 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-01 0 118.190.213.25:80] failed
+2020-01-15 18:11:32 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.23:80] asynchronously
+2020-01-15 18:11:32 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.23:80
+2020-01-15 18:11:32 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.23:80] success, DefaultChannelPromise@7d51275f(success)
+2020-01-15 18:11:32 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-01 1 118.190.213.23:80] failed
+2020-01-15 18:11:32 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.26:80] asynchronously
+2020-01-15 18:11:32 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.26:80
+2020-01-15 18:11:32 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.26:80] success, DefaultChannelPromise@58c8f8d2(success)
+2020-01-15 18:11:32 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-02 0 118.190.213.26:80] failed
+2020-01-15 18:11:32 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.24:80] asynchronously
+2020-01-15 18:11:32 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.24:80
+2020-01-15 18:11:32 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.24:80] success, DefaultChannelPromise@41290853(success)
+2020-01-15 18:11:32 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-02 1 118.190.213.24:80] failed
+2020-01-15 18:11:32 WARN RebalanceService - getConsumerIdListByGroup exception, 118.190.213.26:80 CID_jpush_message
+com.aliyun.openservices.shade.com.alibaba.rocketmq.client.exception.MQBrokerException: CODE: 1  DESC: com.aliyun.openservices.ons.api.impl.authority.exception.AuthenticationException: get user info by accesskey from ALIYUN failed., com.alibaba.ons.open.auth.validator.DynamicBlackAccessValidator.check(DynamicBlackAccessValidator.java:65)
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.MQClientAPIImpl.getConsumerIdListByGroup(MQClientAPIImpl.java:745) ~[ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.findConsumerIdList(MQClientInstance.java:1060) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.rebalanceByTopic(RebalanceImpl.java:262) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.doRebalance(RebalanceImpl.java:225) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.DefaultMQPushConsumerImpl.doRebalance(DefaultMQPushConsumerImpl.java:990) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.doRebalance(MQClientInstance.java:955) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceService.run(RebalanceService.java:41) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at java.lang.Thread.run(Thread.java:744) [na:1.7.0_45]
+2020-01-15 18:11:32 WARN RebalanceService - doRebalance, CID_jpush_message jpush_message_topic, get consumer id list failed
+2020-01-15 18:11:32 INFO MQClientFactoryScheduledThread - send heart beat to broker[qd3internet-01 0 118.190.213.25:80] failed
+2020-01-15 18:11:32 WARN RebalanceService - getConsumerIdListByGroup exception, 118.190.213.26:80 CID_jpush_message
+com.aliyun.openservices.shade.com.alibaba.rocketmq.client.exception.MQBrokerException: CODE: 1  DESC: com.aliyun.openservices.ons.api.impl.authority.exception.AuthenticationException: get user info by accesskey from ALIYUN failed., com.alibaba.ons.open.auth.validator.DynamicBlackAccessValidator.check(DynamicBlackAccessValidator.java:65)
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.MQClientAPIImpl.getConsumerIdListByGroup(MQClientAPIImpl.java:745) ~[ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.findConsumerIdList(MQClientInstance.java:1060) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.rebalanceByTopic(RebalanceImpl.java:262) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.doRebalance(RebalanceImpl.java:225) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.DefaultMQPushConsumerImpl.doRebalance(DefaultMQPushConsumerImpl.java:990) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.doRebalance(MQClientInstance.java:955) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceService.run(RebalanceService.java:41) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at java.lang.Thread.run(Thread.java:744) [na:1.7.0_45]
+2020-01-15 18:11:32 WARN RebalanceService - doRebalance, CID_jpush_message %RETRY%CID_jpush_message, get consumer id list failed
+2020-01-15 18:11:32 INFO MQClientFactoryScheduledThread - send heart beat to broker[qd3internet-01 1 118.190.213.23:80] failed
+2020-01-15 18:11:33 INFO MQClientFactoryScheduledThread - send heart beat to broker[qd3internet-02 0 118.190.213.26:80] failed
+2020-01-15 18:11:33 INFO MQClientFactoryScheduledThread - send heart beat to broker[qd3internet-02 1 118.190.213.24:80] failed
+2020-01-15 18:11:33 INFO localhost-startStop-1 - name server address updated. NEW : [112.124.141.191:80, 106.15.100.140:80] , OLD: null
+2020-01-15 18:11:33 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-15 18:11:33 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 2 ClinetID: 192.168.111.202@8776#369055674#-1966528391#184544374799362 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=8776#369055674#-1966528391#184544374799362, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-15 18:11:33 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@8776#369055674#-1966528391#184544374799362]
+2020-01-15 18:11:33 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 18:11:33 INFO localhost-startStop-1 - the client factory [192.168.111.202@8776#369055674#-1966528391#184544374799362] start OK
+2020-01-15 18:11:33 INFO localhost-startStop-1 - the producer [LTAIhb2UX7UkzaB2_INNER_TRACE_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 18:11:33 INFO localhost-startStop-1 - register sendMessage Hook, OnsClientSendMessageHook
+2020-01-15 18:11:33 INFO MQClientFactoryScheduledThread - new name server is chosen. OLD: null , NEW: 106.15.100.140:80. namesrvIndex = 57
+2020-01-15 18:11:33 INFO PullMessageService - PullMessageService service started
+2020-01-15 18:11:33 INFO RebalanceService - RebalanceService service started
+2020-01-15 18:11:33 INFO MQClientFactoryScheduledThread - createChannel: begin to connect remote host[106.15.100.140:80] asynchronously
+2020-01-15 18:11:33 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 106.15.100.140:80
+2020-01-15 18:11:33 INFO MQClientFactoryScheduledThread - createChannel: connect remote host[106.15.100.140:80] success, DefaultChannelPromise@64ec9463(success)
+2020-01-15 18:11:33 INFO localhost-startStop-1 - name server address updated. NEW : [106.15.100.140:80, 112.124.141.191:80] , OLD: null
+2020-01-15 18:11:33 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-15 18:11:33 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 3 ClinetID: 192.168.111.202@8776#369055674#-1966528391#184544374651967 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=8776#369055674#-1966528391#184544374651967, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-15 18:11:33 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@8776#369055674#-1966528391#184544374651967]
+2020-01-15 18:11:33 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-15 18:11:33 INFO PullMessageService - PullMessageService service started
+2020-01-15 18:11:33 INFO localhost-startStop-1 - the client factory [192.168.111.202@8776#369055674#-1966528391#184544374651967] start OK
+2020-01-15 18:11:33 INFO localhost-startStop-1 - the producer [PID_jpush_message] start OK. sendMessageWithVIPChannel=false
+2020-01-15 18:11:33 INFO RebalanceService - RebalanceService service started
+2020-01-15 18:11:33 INFO MQClientFactoryScheduledThread - new name server is chosen. OLD: null , NEW: 112.124.141.191:80. namesrvIndex = 171
+2020-01-15 18:11:33 INFO MQClientFactoryScheduledThread - createChannel: begin to connect remote host[112.124.141.191:80] asynchronously
+2020-01-15 18:11:33 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 112.124.141.191:80
+2020-01-15 18:11:33 INFO MQClientFactoryScheduledThread - createChannel: connect remote host[112.124.141.191:80] success, DefaultChannelPromise@7d4527a0(success)
+2020-01-16 09:33:28 INFO localhost-startStop-1 - name server address updated. NEW : [106.15.100.140:80, 112.124.141.191:80] , OLD: null
+2020-01-16 09:33:28 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-16 09:33:28 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 0 ClinetID: 192.168.111.202@6580#369055674#-1966528391#239858528391955 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=6580#369055674#-1966528391#239858528391955, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-16 09:33:28 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@6580#369055674#-1966528391#239858528391955]
+2020-01-16 09:33:28 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-16 09:33:28 INFO localhost-startStop-1 - the client factory [192.168.111.202@6580#369055674#-1966528391#239858528391955] start OK
+2020-01-16 09:33:28 INFO localhost-startStop-1 - the producer [LTAIhb2UX7UkzaB2_INNER_TRACE_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-16 09:33:28 INFO localhost-startStop-1 - register consumeMessageHook Hook, OnsConsumeMessageHook
+2020-01-16 09:33:28 INFO RebalanceService - RebalanceService service started
+2020-01-16 09:33:28 INFO PullMessageService - PullMessageService service started
+2020-01-16 09:33:28 INFO localhost-startStop-1 - the consumer [CID_jpush_message] start beginning. messageModel=CLUSTERING, isUnitMode=false
+2020-01-16 09:33:28 INFO MQClientFactoryScheduledThread - new name server is chosen. OLD: null , NEW: 106.15.100.140:80. namesrvIndex = 364
+2020-01-16 09:33:29 INFO localhost-startStop-1 - name server address updated. NEW : [112.124.141.191:80, 106.15.100.140:80] , OLD: null
+2020-01-16 09:33:29 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-16 09:33:29 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 1 ClinetID: 192.168.111.202@6580#369055674#-1966528391#239858528271645 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=6580#369055674#-1966528391#239858528271645, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-16 09:33:29 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@6580#369055674#-1966528391#239858528271645]
+2020-01-16 09:33:29 INFO PullMessageService - PullMessageService service started
+2020-01-16 09:33:29 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-16 09:33:29 INFO RebalanceService - RebalanceService service started
+2020-01-16 09:33:29 INFO localhost-startStop-1 - the client factory [192.168.111.202@6580#369055674#-1966528391#239858528271645] start OK
+2020-01-16 09:33:29 INFO localhost-startStop-1 - the consumer [CID_jpush_message] start OK.
+2020-01-16 09:33:29 INFO localhost-startStop-1 - new name server is chosen. OLD: null , NEW: 112.124.141.191:80. namesrvIndex = 220
+2020-01-16 09:33:29 INFO MQClientFactoryScheduledThread - createChannel: begin to connect remote host[106.15.100.140:80] asynchronously
+2020-01-16 09:33:29 INFO localhost-startStop-1 - createChannel: begin to connect remote host[112.124.141.191:80] asynchronously
+2020-01-16 09:33:29 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 106.15.100.140:80
+2020-01-16 09:33:29 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 112.124.141.191:80
+2020-01-16 09:33:29 INFO localhost-startStop-1 - createChannel: connect remote host[112.124.141.191:80] success, DefaultChannelPromise@4948c70e(success)
+2020-01-16 09:33:29 INFO MQClientFactoryScheduledThread - createChannel: connect remote host[106.15.100.140:80] success, DefaultChannelPromise@33ea15fe(success)
+2020-01-16 09:33:29 INFO localhost-startStop-1 - the topic[jpush_message_topic] route info changed, old[null] ,new[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-01, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-02, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-16 09:33:29 INFO localhost-startStop-1 - topicRouteTable.put. Topic = jpush_message_topic, TopicRouteData[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-01, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-02, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-16 09:33:29 INFO localhost-startStop-1 - the topic[%RETRY%CID_jpush_message] route info changed, old[null] ,new[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-01, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-02, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-16 09:33:29 INFO localhost-startStop-1 - topicRouteTable.put. Topic = %RETRY%CID_jpush_message, TopicRouteData[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-01, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-02, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-16 09:33:29 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.25:80] asynchronously
+2020-01-16 09:33:29 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.25:80
+2020-01-16 09:33:29 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.25:80] success, DefaultChannelPromise@3c67917e(success)
+2020-01-16 09:33:29 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-01 0 118.190.213.25:80] failed
+2020-01-16 09:33:29 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.23:80] asynchronously
+2020-01-16 09:33:29 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.23:80
+2020-01-16 09:33:29 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.23:80] success, DefaultChannelPromise@750b1f9(success)
+2020-01-16 09:33:29 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-01 1 118.190.213.23:80] failed
+2020-01-16 09:33:29 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.26:80] asynchronously
+2020-01-16 09:33:29 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.26:80
+2020-01-16 09:33:29 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.26:80] success, DefaultChannelPromise@41ea2910(success)
+2020-01-16 09:33:30 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-02 0 118.190.213.26:80] failed
+2020-01-16 09:33:30 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.24:80] asynchronously
+2020-01-16 09:33:30 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.24:80
+2020-01-16 09:33:30 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.24:80] success, DefaultChannelPromise@44c93da7(success)
+2020-01-16 09:33:30 WARN MQClientFactoryScheduledThread - lock heartBeat, but failed.
+2020-01-16 09:33:30 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-02 1 118.190.213.24:80] failed
+2020-01-16 09:33:30 WARN RebalanceService - getConsumerIdListByGroup exception, 118.190.213.26:80 CID_jpush_message
+com.aliyun.openservices.shade.com.alibaba.rocketmq.client.exception.MQBrokerException: CODE: 1  DESC: com.aliyun.openservices.ons.api.impl.authority.exception.AuthenticationException: get user info by accesskey from ALIYUN failed., com.alibaba.ons.open.auth.validator.DynamicBlackAccessValidator.check(DynamicBlackAccessValidator.java:65)
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.MQClientAPIImpl.getConsumerIdListByGroup(MQClientAPIImpl.java:745) ~[ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.findConsumerIdList(MQClientInstance.java:1060) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.rebalanceByTopic(RebalanceImpl.java:262) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.doRebalance(RebalanceImpl.java:225) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.DefaultMQPushConsumerImpl.doRebalance(DefaultMQPushConsumerImpl.java:990) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.doRebalance(MQClientInstance.java:955) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceService.run(RebalanceService.java:41) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at java.lang.Thread.run(Thread.java:744) [na:1.7.0_45]
+2020-01-16 09:33:30 WARN RebalanceService - doRebalance, CID_jpush_message jpush_message_topic, get consumer id list failed
+2020-01-16 09:33:30 WARN RebalanceService - getConsumerIdListByGroup exception, 118.190.213.26:80 CID_jpush_message
+com.aliyun.openservices.shade.com.alibaba.rocketmq.client.exception.MQBrokerException: CODE: 1  DESC: com.aliyun.openservices.ons.api.impl.authority.exception.AuthenticationException: get user info by accesskey from ALIYUN failed., com.alibaba.ons.open.auth.validator.DynamicBlackAccessValidator.check(DynamicBlackAccessValidator.java:65)
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.MQClientAPIImpl.getConsumerIdListByGroup(MQClientAPIImpl.java:745) ~[ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.findConsumerIdList(MQClientInstance.java:1060) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.rebalanceByTopic(RebalanceImpl.java:262) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.doRebalance(RebalanceImpl.java:225) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.DefaultMQPushConsumerImpl.doRebalance(DefaultMQPushConsumerImpl.java:990) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.doRebalance(MQClientInstance.java:955) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceService.run(RebalanceService.java:41) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at java.lang.Thread.run(Thread.java:744) [na:1.7.0_45]
+2020-01-16 09:33:30 WARN RebalanceService - doRebalance, CID_jpush_message %RETRY%CID_jpush_message, get consumer id list failed
+2020-01-16 09:33:30 INFO localhost-startStop-1 - name server address updated. NEW : [112.124.141.191:80, 106.15.100.140:80] , OLD: null
+2020-01-16 09:33:30 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-16 09:33:30 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 2 ClinetID: 192.168.111.202@6580#369055674#-1966528391#239860555111247 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=6580#369055674#-1966528391#239860555111247, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-16 09:33:30 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@6580#369055674#-1966528391#239860555111247]
+2020-01-16 09:33:30 INFO PullMessageService - PullMessageService service started
+2020-01-16 09:33:30 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-16 09:33:30 INFO RebalanceService - RebalanceService service started
+2020-01-16 09:33:30 INFO localhost-startStop-1 - the client factory [192.168.111.202@6580#369055674#-1966528391#239860555111247] start OK
+2020-01-16 09:33:30 INFO localhost-startStop-1 - the producer [LTAIhb2UX7UkzaB2_INNER_TRACE_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-16 09:33:30 INFO localhost-startStop-1 - register sendMessage Hook, OnsClientSendMessageHook
+2020-01-16 09:33:30 INFO MQClientFactoryScheduledThread - new name server is chosen. OLD: null , NEW: 106.15.100.140:80. namesrvIndex = 507
+2020-01-16 09:33:30 INFO MQClientFactoryScheduledThread - createChannel: begin to connect remote host[106.15.100.140:80] asynchronously
+2020-01-16 09:33:30 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 106.15.100.140:80
+2020-01-16 09:33:30 INFO localhost-startStop-1 - name server address updated. NEW : [112.124.141.191:80, 106.15.100.140:80] , OLD: null
+2020-01-16 09:33:30 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-16 09:33:30 INFO MQClientFactoryScheduledThread - createChannel: connect remote host[106.15.100.140:80] success, DefaultChannelPromise@3ae6be7d(success)
+2020-01-16 09:33:30 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 3 ClinetID: 192.168.111.202@6580#369055674#-1966528391#239860554984094 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=6580#369055674#-1966528391#239860554984094, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-16 09:33:30 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@6580#369055674#-1966528391#239860554984094]
+2020-01-16 09:33:30 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-16 09:33:30 INFO RebalanceService - RebalanceService service started
+2020-01-16 09:33:30 INFO localhost-startStop-1 - the client factory [192.168.111.202@6580#369055674#-1966528391#239860554984094] start OK
+2020-01-16 09:33:30 INFO localhost-startStop-1 - the producer [PID_jpush_message] start OK. sendMessageWithVIPChannel=false
+2020-01-16 09:33:30 INFO PullMessageService - PullMessageService service started
+2020-01-16 09:33:30 INFO MQClientFactoryScheduledThread - new name server is chosen. OLD: null , NEW: 106.15.100.140:80. namesrvIndex = 663
+2020-01-16 09:33:30 INFO MQClientFactoryScheduledThread - createChannel: begin to connect remote host[106.15.100.140:80] asynchronously
+2020-01-16 09:33:30 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 106.15.100.140:80
+2020-01-16 09:33:30 INFO MQClientFactoryScheduledThread - createChannel: connect remote host[106.15.100.140:80] success, DefaultChannelPromise@3ec94490(success)
+2020-01-16 09:35:22 INFO localhost-startStop-1 - name server address updated. NEW : [106.15.100.140:80, 112.124.141.191:80] , OLD: null
+2020-01-16 09:35:22 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-16 09:35:22 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 0 ClinetID: 192.168.111.202@11892#369055674#-1966528391#239972397175201 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=11892#369055674#-1966528391#239972397175201, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-16 09:35:22 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@11892#369055674#-1966528391#239972397175201]
+2020-01-16 09:35:22 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-16 09:35:22 INFO localhost-startStop-1 - the client factory [192.168.111.202@11892#369055674#-1966528391#239972397175201] start OK
+2020-01-16 09:35:22 INFO localhost-startStop-1 - the producer [LTAIhb2UX7UkzaB2_INNER_TRACE_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-16 09:35:22 INFO localhost-startStop-1 - register consumeMessageHook Hook, OnsConsumeMessageHook
+2020-01-16 09:35:22 INFO localhost-startStop-1 - the consumer [CID_jpush_message] start beginning. messageModel=CLUSTERING, isUnitMode=false
+2020-01-16 09:35:22 INFO MQClientFactoryScheduledThread - new name server is chosen. OLD: null , NEW: 112.124.141.191:80. namesrvIndex = 477
+2020-01-16 09:35:22 INFO PullMessageService - PullMessageService service started
+2020-01-16 09:35:22 INFO RebalanceService - RebalanceService service started
+2020-01-16 09:35:22 INFO localhost-startStop-1 - name server address updated. NEW : [106.15.100.140:80, 112.124.141.191:80] , OLD: null
+2020-01-16 09:35:22 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-16 09:35:22 INFO MQClientFactoryScheduledThread - createChannel: begin to connect remote host[112.124.141.191:80] asynchronously
+2020-01-16 09:35:22 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 112.124.141.191:80
+2020-01-16 09:35:22 INFO MQClientFactoryScheduledThread - createChannel: connect remote host[112.124.141.191:80] success, DefaultChannelPromise@8fa6206(success)
+2020-01-16 09:35:22 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 1 ClinetID: 192.168.111.202@11892#369055674#-1966528391#239972397070856 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=11892#369055674#-1966528391#239972397070856, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-16 09:35:22 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@11892#369055674#-1966528391#239972397070856]
+2020-01-16 09:35:22 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-16 09:35:22 INFO RebalanceService - RebalanceService service started
+2020-01-16 09:35:22 INFO PullMessageService - PullMessageService service started
+2020-01-16 09:35:22 INFO localhost-startStop-1 - the client factory [192.168.111.202@11892#369055674#-1966528391#239972397070856] start OK
+2020-01-16 09:35:22 INFO localhost-startStop-1 - the consumer [CID_jpush_message] start OK.
+2020-01-16 09:35:22 INFO localhost-startStop-1 - new name server is chosen. OLD: null , NEW: 106.15.100.140:80. namesrvIndex = 994
+2020-01-16 09:35:22 INFO localhost-startStop-1 - createChannel: begin to connect remote host[106.15.100.140:80] asynchronously
+2020-01-16 09:35:22 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 106.15.100.140:80
+2020-01-16 09:35:22 INFO localhost-startStop-1 - createChannel: connect remote host[106.15.100.140:80] success, DefaultChannelPromise@11302744(success)
+2020-01-16 09:35:22 INFO localhost-startStop-1 - the topic[jpush_message_topic] route info changed, old[null] ,new[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-01, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-02, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-16 09:35:22 INFO localhost-startStop-1 - topicRouteTable.put. Topic = jpush_message_topic, TopicRouteData[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-01, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-02, readQueueNums=8, writeQueueNums=8, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-16 09:35:22 INFO localhost-startStop-1 - the topic[%RETRY%CID_jpush_message] route info changed, old[null] ,new[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-01, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-02, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-16 09:35:22 INFO localhost-startStop-1 - topicRouteTable.put. Topic = %RETRY%CID_jpush_message, TopicRouteData[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=qd3internet-01, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0], QueueData [brokerName=qd3internet-02, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=qd3internet-01, brokerAddrs={0=118.190.213.25:80, 1=118.190.213.23:80}], BrokerData [brokerName=qd3internet-02, brokerAddrs={0=118.190.213.26:80, 1=118.190.213.24:80}]], filterServerTable={}]]
+2020-01-16 09:35:22 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.25:80] asynchronously
+2020-01-16 09:35:22 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.25:80
+2020-01-16 09:35:22 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.25:80] success, DefaultChannelPromise@251c0f65(success)
+2020-01-16 09:35:23 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-01 0 118.190.213.25:80] failed
+2020-01-16 09:35:23 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.23:80] asynchronously
+2020-01-16 09:35:23 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.23:80
+2020-01-16 09:35:23 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.23:80] success, DefaultChannelPromise@2a62d4b5(success)
+2020-01-16 09:35:23 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-01 1 118.190.213.23:80] failed
+2020-01-16 09:35:23 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.26:80] asynchronously
+2020-01-16 09:35:23 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.26:80
+2020-01-16 09:35:23 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.26:80] success, DefaultChannelPromise@599f003e(success)
+2020-01-16 09:35:23 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-02 0 118.190.213.26:80] failed
+2020-01-16 09:35:23 INFO localhost-startStop-1 - createChannel: begin to connect remote host[118.190.213.24:80] asynchronously
+2020-01-16 09:35:23 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 118.190.213.24:80
+2020-01-16 09:35:23 INFO localhost-startStop-1 - createChannel: connect remote host[118.190.213.24:80] success, DefaultChannelPromise@3e50b39b(success)
+2020-01-16 09:35:23 INFO localhost-startStop-1 - send heart beat to broker[qd3internet-02 1 118.190.213.24:80] failed
+2020-01-16 09:35:23 WARN RebalanceService - getConsumerIdListByGroup exception, 118.190.213.25:80 CID_jpush_message
+com.aliyun.openservices.shade.com.alibaba.rocketmq.client.exception.MQBrokerException: CODE: 1  DESC: com.aliyun.openservices.ons.api.impl.authority.exception.AuthenticationException: get user info by accesskey from ALIYUN failed., com.alibaba.ons.open.auth.validator.DynamicBlackAccessValidator.check(DynamicBlackAccessValidator.java:65)
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.MQClientAPIImpl.getConsumerIdListByGroup(MQClientAPIImpl.java:745) ~[ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.findConsumerIdList(MQClientInstance.java:1060) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.rebalanceByTopic(RebalanceImpl.java:262) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.doRebalance(RebalanceImpl.java:225) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.DefaultMQPushConsumerImpl.doRebalance(DefaultMQPushConsumerImpl.java:990) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.doRebalance(MQClientInstance.java:955) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceService.run(RebalanceService.java:41) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at java.lang.Thread.run(Thread.java:744) [na:1.7.0_45]
+2020-01-16 09:35:23 WARN RebalanceService - doRebalance, CID_jpush_message jpush_message_topic, get consumer id list failed
+2020-01-16 09:35:23 WARN RebalanceService - getConsumerIdListByGroup exception, 118.190.213.25:80 CID_jpush_message
+com.aliyun.openservices.shade.com.alibaba.rocketmq.client.exception.MQBrokerException: CODE: 1  DESC: com.aliyun.openservices.ons.api.impl.authority.exception.AuthenticationException: get user info by accesskey from ALIYUN failed., com.alibaba.ons.open.auth.validator.DynamicBlackAccessValidator.check(DynamicBlackAccessValidator.java:65)
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.MQClientAPIImpl.getConsumerIdListByGroup(MQClientAPIImpl.java:745) ~[ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.findConsumerIdList(MQClientInstance.java:1060) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.rebalanceByTopic(RebalanceImpl.java:262) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceImpl.doRebalance(RebalanceImpl.java:225) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.DefaultMQPushConsumerImpl.doRebalance(DefaultMQPushConsumerImpl.java:990) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.factory.MQClientInstance.doRebalance(MQClientInstance.java:955) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at com.aliyun.openservices.shade.com.alibaba.rocketmq.client.impl.consumer.RebalanceService.run(RebalanceService.java:41) [ons-client-1.7.1.Final.jar:1.7.1.Final]
+	at java.lang.Thread.run(Thread.java:744) [na:1.7.0_45]
+2020-01-16 09:35:23 WARN RebalanceService - doRebalance, CID_jpush_message %RETRY%CID_jpush_message, get consumer id list failed
+2020-01-16 09:35:23 INFO localhost-startStop-1 - name server address updated. NEW : [112.124.141.191:80, 106.15.100.140:80] , OLD: null
+2020-01-16 09:35:23 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-16 09:35:23 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 2 ClinetID: 192.168.111.202@11892#369055674#-1966528391#239973790972574 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=11892#369055674#-1966528391#239973790972574, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-16 09:35:23 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@11892#369055674#-1966528391#239973790972574]
+2020-01-16 09:35:23 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-16 09:35:23 INFO PullMessageService - PullMessageService service started
+2020-01-16 09:35:23 INFO localhost-startStop-1 - the client factory [192.168.111.202@11892#369055674#-1966528391#239973790972574] start OK
+2020-01-16 09:35:23 INFO localhost-startStop-1 - the producer [LTAIhb2UX7UkzaB2_INNER_TRACE_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-16 09:35:23 INFO RebalanceService - RebalanceService service started
+2020-01-16 09:35:23 INFO localhost-startStop-1 - register sendMessage Hook, OnsClientSendMessageHook
+2020-01-16 09:35:23 INFO MQClientFactoryScheduledThread - new name server is chosen. OLD: null , NEW: 112.124.141.191:80. namesrvIndex = 368
+2020-01-16 09:35:23 INFO MQClientFactoryScheduledThread - createChannel: begin to connect remote host[112.124.141.191:80] asynchronously
+2020-01-16 09:35:23 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 112.124.141.191:80
+2020-01-16 09:35:23 INFO MQClientFactoryScheduledThread - send heart beat to broker[qd3internet-01 0 118.190.213.25:80] failed
+2020-01-16 09:35:23 INFO MQClientFactoryScheduledThread - createChannel: connect remote host[112.124.141.191:80] success, DefaultChannelPromise@6a0b2845(success)
+2020-01-16 09:35:23 INFO localhost-startStop-1 - name server address updated. NEW : [112.124.141.191:80, 106.15.100.140:80] , OLD: null
+2020-01-16 09:35:23 INFO localhost-startStop-1 - user specified name server address: 112.124.141.191:80;106.15.100.140:80
+2020-01-16 09:35:23 INFO MQClientFactoryScheduledThread - send heart beat to broker[qd3internet-01 1 118.190.213.23:80] failed
+2020-01-16 09:35:23 INFO localhost-startStop-1 - created a new client Instance, FactoryIndex: 3 ClinetID: 192.168.111.202@11892#369055674#-1966528391#239973790869084 ClientConfig [namesrvAddr=112.124.141.191:80;106.15.100.140:80, clientIP=192.168.111.202, instanceName=11892#369055674#-1966528391#239973790869084, clientCallbackExecutorThreads=4, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=false, decodeReadBody=true, decodeDecompressBody=true, useTLS=false] V4_1_4, serializeType=JSON
+2020-01-16 09:35:23 INFO localhost-startStop-1 - Created new MQClientInstance for clientId:[192.168.111.202@11892#369055674#-1966528391#239973790869084]
+2020-01-16 09:35:23 INFO PullMessageService - PullMessageService service started
+2020-01-16 09:35:23 INFO localhost-startStop-1 - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=false
+2020-01-16 09:35:23 INFO localhost-startStop-1 - the client factory [192.168.111.202@11892#369055674#-1966528391#239973790869084] start OK
+2020-01-16 09:35:23 INFO localhost-startStop-1 - the producer [PID_jpush_message] start OK. sendMessageWithVIPChannel=false
+2020-01-16 09:35:23 INFO RebalanceService - RebalanceService service started
+2020-01-16 09:35:23 INFO MQClientFactoryScheduledThread - send heart beat to broker[qd3internet-02 0 118.190.213.26:80] failed
+2020-01-16 09:35:23 INFO MQClientFactoryScheduledThread - new name server is chosen. OLD: null , NEW: 106.15.100.140:80. namesrvIndex = 361
+2020-01-16 09:35:23 INFO MQClientFactoryScheduledThread - createChannel: begin to connect remote host[106.15.100.140:80] asynchronously
+2020-01-16 09:35:23 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 106.15.100.140:80
+2020-01-16 09:35:23 INFO MQClientFactoryScheduledThread - createChannel: connect remote host[106.15.100.140:80] success, DefaultChannelPromise@162871ac(success)
+2020-01-16 09:35:23 INFO MQClientFactoryScheduledThread - send heart beat to broker[qd3internet-02 1 118.190.213.24:80] failed
